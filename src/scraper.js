@@ -8,11 +8,11 @@ module.exports = function scrape(index, writer, callback) {
 
     var current = -1;
 
-    console.log('Scraping ' + index.length + ' chapters...');
+    console.log('Scraping ' + index.length + ' parts...');
 
-    nextChapter();
+    nextPart();
 
-    function nextChapter() {
+    function nextPart() {
 
         current++;
 
@@ -22,16 +22,16 @@ module.exports = function scrape(index, writer, callback) {
             return;
         }
 
-        var chapter = index[current];
+        var part = index[current];
 
-        if (chapter.type != 'content') {
-            console.log('Skipping non-content chapter ' + chapter.index);
-            nextChapter();
+        if (part.type != 'chapter' || !part.url) {
+            console.log('Skipping non-content part ' + part.id);
+            nextPart();
         } else {
-            console.log('Scraping chapter ' + chapter.index + ' (' + chapter.url + ')');
-            getPost(chapter, function (content) {
-                writer.call(null, chapter, content);
-                nextChapter();
+            console.log('Scraping part ' + part.id + ' (' + part.url + ')');
+            getPost(part, function (content) {
+                writer(part, content);
+                nextPart();
             });
         }
     }

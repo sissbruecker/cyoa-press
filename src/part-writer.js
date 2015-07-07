@@ -5,8 +5,8 @@ var fs = require('fs');
 var path = require('path');
 
 module.exports = function writer(namer, basePath) {
-    return function(chapter, content) {
-        var fileName = namer(chapter);
+    return function(part, content) {
+        var fileName = namer(part);
         var filePath = path.join(basePath, fileName);
 
         fs.writeFileSync(filePath, content);

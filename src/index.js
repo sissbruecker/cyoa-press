@@ -7,19 +7,18 @@ var OUTPUT_PATH = '../books/legend/out';
 
 var path = require('path');
 var fs = require('fs-extra');
-var util = require('./util');
 
 var index,
     outDir,
     outStyleDir,
     outChapterRawDir,
-    outChapterTransformedDir;
+    outChapterRenderedDir;
 
 var program = [
         prepareOutput,
         readIndex,
         scrape,
-        transform,
+        render,
         bind
     ],
     current = -1;
@@ -30,13 +29,13 @@ function prepareOutput() {
     outDir = OUTPUT_PATH;
     outStyleDir = path.join(outDir, 'styles');
     outChapterRawDir = path.join(outDir, 'raw');
-    outChapterTransformedDir = path.join(outDir, 'transformed');
+    outChapterRenderedDir = path.join(outDir, 'rendered');
 
     fs.removeSync(outDir);
     fs.ensureDirSync(outDir);
     fs.ensureDirSync(outStyleDir);
     fs.ensureDirSync(outChapterRawDir);
-    fs.ensureDirSync(outChapterTransformedDir);
+    fs.ensureDirSync(outChapterRenderedDir);
 
     fs.copySync('styles', outStyleDir);
 
@@ -45,37 +44,38 @@ function prepareOutput() {
 
 function readIndex() {
 
+    var indexer = require('./indexer');
+
     console.log('Reading index: ' + INDEX_PATH);
 
-    var indexer = require('./indexer');
     index = indexer(INDEX_PATH);
 
-    console.log('Found ' + index.length + ' chapters');
+    console.log('Found ' + index.length + ' parts');
     next();
 }
 
 function scrape() {
 
     var scraper = require('./scraper');
-    var writer = require('./chapter-writer')(util.fileNameByIndex, outChapterRawDir);
+    var writer = require('./part-writer')(fileNameById, outChapterRawDir);
 
     scraper(index, writer, next);
 }
 
-function transform() {
+function render() {
 
-    var transformer = require('./transformer');
-    var reader = require('./chapter-reader')(util.fileNameByIndex, outChapterRawDir);
-    var writer = require('./chapter-writer')(util.fileNameByIndex, outChapterTransformedDir);
+    var renderer = require('./renderer');
+    var reader = require('./part-reader')(fileNameById, outChapterRawDir);
+    var writer = require('./part-writer')(fileNameById, outChapterRenderedDir);
 
-    transformer(index, reader, writer);
+    renderer(index, reader, writer);
     next();
 }
 
 function bind() {
 
     var binder = require('./binder');
-    var reader = require('./chapter-reader')(util.fileNameByIndex, outChapterTransformedDir);
+    var reader = require('./part-reader')(fileNameById, outChapterRenderedDir);
 
     binder(index, reader, outDir);
     next();
@@ -91,4 +91,8 @@ function next() {
 
     var step = program[current];
     step.call();
+}
+
+function fileNameById(part) {
+    return part.id + '.html';
 }

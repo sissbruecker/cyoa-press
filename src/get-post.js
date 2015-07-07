@@ -4,12 +4,12 @@
 var request = require('request');
 var cheerio = require('cheerio');
 
-module.exports = function getPost(chapter, callback) {
+module.exports = function getPost(part, callback) {
 
-    var postId = chapter.url.split('#')[1];
+    var postId = part.url.split('#')[1];
     var postSelector = generatePostSelector(postId);
 
-    request(chapter.url, function(err, resonse, body) {
+    request(part.url, function(err, resonse, body) {
 
         var $ = cheerio.load(body);
         var postContent = $(postSelector).html();

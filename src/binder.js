@@ -3,29 +3,32 @@
  */
 var fs = require('fs');
 var path = require('path');
-var replaceParam = require('./util').replaceParam;
+var renderTemplate = require('./renderers/render-template');
+var loadTemplate = require('./renderers/load-template');
 
-var template = fs.readFileSync(path.join('templates', 'complete.html')).toString();
+var template = loadTemplate('complete');
 
 module.exports = function binder(index, reader, outPath) {
 
     var title = extractTitle(index);
-    var chaptersContent = '';
+    var content = index.reduce(function(content, part) {
+        return content + reader(part);
+    }, '');
 
-    index.forEach(function (chapter) {
-        chaptersContent += reader(chapter);
-    });
+    var params = {
+        title: title,
+        content: content
+    };
 
-    template = replaceParam(template, 'title', title);
-    template = replaceParam(template, 'chapters-content', chaptersContent);
+    var markup = renderTemplate(template, params);
 
-    fs.writeFileSync(path.join(outPath, 'complete.html'), template);
+    fs.writeFileSync(path.join(outPath, 'complete.html'), markup);
 };
 
 function extractTitle(index) {
 
-    var titles = index.filter(function(chapter) {
-        return chapter.type == 'title'
+    var titles = index.filter(function(part) {
+        return part.type == 'title'
     });
 
     return titles.length ? titles[0].name : '';

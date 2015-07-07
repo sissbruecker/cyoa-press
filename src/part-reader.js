@@ -5,8 +5,8 @@ var fs = require('fs');
 var path = require('path');
 
 module.exports = function reader(namer, basePath) {
-    return function (chapter) {
-        var fileName = namer(chapter);
+    return function (part) {
+        var fileName = namer(part);
         var filePath = path.join(basePath, fileName);
 
         return fs.readFileSync(filePath).toString();
