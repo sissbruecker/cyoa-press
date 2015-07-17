@@ -4,4 +4,4 @@
 node_modules
 
 books/*/out/raw
-books/*/out/transformed
+books/*/out/rendered

@@ -1,4 +1,4 @@
-title | LEGEND
+title | 傳 LEGEND
 author | treave
 
 index
@@ -59,27 +59,27 @@ chapter | h3 | 二十七 · The Drunken Scholar | http://www.rpgcodex.net/forums
 chapter | h3 | 二十八 · Yangzhou Tales | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-211#post-2943094
 chapter | h3 | 二十九 · Anti-Pirate Alliance | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-213#post-2945214
 chapter | h3 | 三十 · A Maiden&#039;s Request | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-218#post-2949090
-chapter | h3 | 三十一 · The Pirate in Black | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-226#post-2952139
+chapter | h3 | 三十一 · The Pirate in Black | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-225#post-2952139 | fixed
 chapter | h3 | 三十二 · The Pirate Leader | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-227#post-2955419
 chapter | h3 | 三十三 · Cove Confrontation | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-233#post-2962117
 chapter | h3 | 三十四 · Hundred Man Battle | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-242#post-2966636
 chapter | h3 | 三十五 · Meeting at a Shrine | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-250#post-2978869
 chapter | h3 | 三十六 · Night at the Mansion | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-253#post-2982045
 chapter | h3 | 三十七 · The Maiden in the Mansion | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-260#post-2984377
-chapter | h3 | 三十八 · Man in Black in the Library | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-264#post-2985631
+chapter | h3 | 三十八 · Man in Black in the Library | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-263#post-2985631 | fixed
 chapter | h3 | 三十九 · Lady Mi | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-269#post-2989106
 chapter | h3 | 四十 · Road to Xiangyang, Again | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-273#post-2997067
 chapter | h3 | 四十一 · Enter the Black Dragon | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-279#post-3001793
 chapter | h3 | 四十二 · The Two Masters of the Fort | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-284#post-3007930
 chapter | h3 | 四十三 · The Hospitality of the Hei Brothers | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-286#post-3010868
 chapter | h3 | 四十四 · The Imperial Agent | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-289#post-3015115
-chapter | h3 | 四十五 · Icy Heart | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-351#post-3050867
-chapter | h3 | 四十六 · Encounter on the Road | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-359#post-3053703
+chapter | h3 | 四十五 · Icy Heart | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-350#post-3050867 | fixed
+chapter | h3 | 四十六 · Encounter on the Road | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-358#post-3053703 | fixed
 chapter | h3 | 四十七 · Return to Emei | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-363#post-3055648
 chapter | h3 | 四十八 · March on Guizhou | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-370#post-3059642
 chapter | h3 | 四十九 · The Wudu Cult | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-375#post-3063192
 chapter | h3 | 五十 · Royal Reunion | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-377#post-3065774
-chapter | h3 | 五十一 · Another Path | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-380#post-3067500
+chapter | h3 | 五十一 · Another Path | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-379#post-3067500 | fixed
 chapter | h3 | 五十二 · Disappearance of the Golden Emperor | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-414#post-3077110
 chapter | h3 | 五十三 · Fall Into the Darkness | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-415#post-3077509
 chapter | h3 | 五十四 · Underground Exploration | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-423#post-3080928
@@ -144,7 +144,7 @@ chapter | h3 | 四十五 · The Shaolin Gauntlet IV | http://www.rpgcodex.net/fo
 chapter | h3 | 四十六 · The Shaolin Gauntlet V | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-990#post-3289513
 chapter | h3 | 四十七 · Gauntlet&#039;s End | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-995#post-3293205
 chapter | h3 | 四十八 · Libraries and Dumplings | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1001#post-3294273
-chapter | h3 | 四十九 · Earthly Determination, Heavenly Will | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1007#post-3296352
+chapter | h3 | 四十九 · Earthly Determination, Heavenly Will | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1006#post-3296352 | fixed
 chapter | h3 | 五十 · Roadside Swordfight | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1032#post-3300686
 chapter | h3 | 五十一 · Interference | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1041#post-3309073
 chapter | h3 | 五十二 · Moonlit Manor | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1043#post-3312332
@@ -164,18 +164,18 @@ chapter | h3 | 六十五 · Conference Aftermath | http://www.rpgcodex.net/forum
 chapter | h3 | 六十六 · Riverside Rest | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1148#post-3360602
 chapter | h3 | 六十七 · Riverine Fugitive | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1157#post-3366386
 chapter | h3 | 六十八 · Cutting Branch | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1162#post-3372421
-chapter | h3 | 六十九 · Duel on the Water | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1165#post-3384409
+chapter | h3 | 六十九 · Duel on the Water | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1164#post-3384409 | fixed
 chapter | h3 | 七十 · Banhe Town | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1167#post-3387599
 chapter | h3 | 七十一 · Meeting in Old Banhe | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1169#post-3394405
 chapter | h3 | 七十二 · Old Street Retreat | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1173#post-3410791
 chapter | h3 | 七十三 · Cold Morning | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1177#post-3415263
 chapter | h3 | 七十四 · Proxy Duel | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1182#post-3422808
 chapter | h3 | 七十五 · Forward to Xiangyang | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1186#post-3430203
-chapter | h3 | 七十六 · Ghosts of the Butterfly | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1190#post-3434150
+chapter | h3 | 七十六 · Ghosts of the Butterfly | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1189#post-3434150 | fixed
 chapter | h3 | 七十七 · Black Dragon Pyre | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1192#post-3446812
 chapter | h3 | 七十八 · Black Dragon Pyre II | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1195#post-3450923
 chapter | h3 | 七十九 · Black Dragon Pyre III | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1196#post-3453778
-chapter | h3 | 八十 · Black Dragon Pyre IV | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1200#post-3456951
+chapter | h3 | 八十 · Black Dragon Pyre IV | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1199#post-3456951 | fixed
 chapter | h3 | 八十一 · Battle at Black Dragon Gate | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1205#post-3469955
 chapter | h3 | 八十二 · Duel at Black Dragon Gate | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1206#post-3476021
 chapter | h3 | 八十三 · Showdown at Black Dragon Gate | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-%E5%82%B3.85971/page-1208#post-3477636
