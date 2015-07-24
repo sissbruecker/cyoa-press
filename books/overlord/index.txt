@@ -1,0 +1,10 @@
+title | Overlord
+author | treave
+
+index
+
+chapter | h2 | Prologue: The Man Who Slew the Demon Lord
+chapter | h3 | The Last Campfire | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-overlord.101450/#post-4031482
+chapter | h3 | Demon Lord&#039;s Castle | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-overlord.101450/page-7#post-4034606
+chapter | h3 | The Final Battle | http://rpgcodex.net/forums/index.php?threads/lp-cyoa-overlord.101450/page-8#post-4035886
+chapter | h3 | An Offering to the King of Demons | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-overlord.101450/page-11#post-4037417
