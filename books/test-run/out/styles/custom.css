@@ -1,16 +1,5 @@
 body {
-    /* Textile */
-    /*background: url("backgrounds/low_contrast_linen.png") repeat;*/
-    /*background: url("backgrounds/tweed.png") repeat;*/
-
-    /* Patterned */
-    /*background: url("backgrounds/arches.png") repeat;*/
-    /*background: url("backgrounds/contemporary_china.png") repeat;*/
-    /*background: url("backgrounds/contemporary_china_2.png") repeat;*/
-    background: url("backgrounds/dark_embroidery.png") repeat;
-    /*background: url("backgrounds/greyfloral.png") repeat;*/
-    /*background: url("backgrounds/subtle_white_mini_waves.png") repeat;*/
-    /*background: url("backgrounds/symphony.png") repeat;*/
+    background: url("backgrounds/gray_jean.png") repeat;
 }
 
 .container {
@@ -21,8 +10,8 @@ body {
     max-width: 700px;
 
     -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 div.intro {
@@ -36,12 +25,15 @@ div.index {
 h1 {
     margin-top: 60px;
 }
+
 h2 {
     margin-top: 100px;
 }
+
 h3 {
     margin-top: 60px;
 }
+
 h4 {
     margin-top: 60px;
 }
