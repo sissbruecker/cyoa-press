@@ -1,6 +1,8 @@
 title | 傳 LEGEND
 author | treave
 
+intro | intro.html
+
 index
 
 chapter | h2 | Prologue: Winds of the Steppe

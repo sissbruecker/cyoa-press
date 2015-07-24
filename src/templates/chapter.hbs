@@ -2,9 +2,10 @@
     <a name="{{id}}"></a>
     <section>
         <article>
+            {{#if url}}<a href="{{url}}" class="chapter-source-link" target="_blank">{{/if}}
             <{{heading}}>{{{name}}}</{{heading}}>
+            {{#if url}}</a>{{/if}}
             {{{content}}}
         </article>
     </section>
-
 </div>

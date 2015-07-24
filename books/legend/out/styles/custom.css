@@ -25,6 +25,10 @@ body {
     box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
+div.intro {
+    margin-top: 60px;
+}
+
 div.index {
     margin-top: 60px;
 }
@@ -40,4 +44,16 @@ h3 {
 }
 h4 {
     margin-top: 60px;
+}
+
+a.chapter-source-link {
+    color: inherit;
+}
+
+a.chapter-source-link:hover {
+    color: inherit;
+}
+
+.bbCodeQuote .quoteContainer .quoteExpand {
+    display: none;
 }

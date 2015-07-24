@@ -1,18 +1,16 @@
 /**
  * Created by Sascha on 05.07.15.
  */
-
-var INDEX_PATH = '../books/legend/index.txt';
-var OUTPUT_PATH = '../books/legend/out';
-
 var path = require('path');
 var fs = require('fs-extra');
 
-var index,
-    outDir,
-    outStyleDir,
-    outChapterRawDir,
-    outChapterRenderedDir;
+var config = require('./config');
+var bookDir = getArg('book');
+
+console.log('Processing book in dir: ' + bookDir);
+config.setBookDir(bookDir);
+
+var index;
 
 var program = [
         prepareOutput,
@@ -26,18 +24,14 @@ var program = [
 next();
 
 function prepareOutput() {
-    outDir = OUTPUT_PATH;
-    outStyleDir = path.join(outDir, 'styles');
-    outChapterRawDir = path.join(outDir, 'raw');
-    outChapterRenderedDir = path.join(outDir, 'rendered');
 
-    fs.removeSync(outDir);
-    fs.ensureDirSync(outDir);
-    fs.ensureDirSync(outStyleDir);
-    fs.ensureDirSync(outChapterRawDir);
-    fs.ensureDirSync(outChapterRenderedDir);
+    fs.removeSync(config.outDir);
+    fs.ensureDirSync(config.outDir);
+    fs.ensureDirSync(config.outStyleDir);
+    fs.ensureDirSync(config.outRawDir);
+    fs.ensureDirSync(config.outRenderedDir);
 
-    fs.copySync('styles', outStyleDir);
+    fs.copySync('styles', config.outStyleDir);
 
     next();
 }
@@ -46,9 +40,9 @@ function readIndex() {
 
     var indexer = require('./indexer');
 
-    console.log('Reading index: ' + INDEX_PATH);
+    console.log('Reading index: ' + config.indexPath);
 
-    index = indexer(INDEX_PATH);
+    index = indexer(config.indexPath);
 
     console.log('Found ' + index.length + ' parts');
     next();
@@ -57,7 +51,7 @@ function readIndex() {
 function scrape() {
 
     var scraper = require('./scraper');
-    var writer = require('./part-writer')(fileNameById, outChapterRawDir);
+    var writer = require('./part-writer')(fileNameById, config.outRawDir);
 
     scraper(index, writer, next);
 }
@@ -65,8 +59,8 @@ function scrape() {
 function render() {
 
     var renderer = require('./renderer');
-    var reader = require('./part-reader')(fileNameById, outChapterRawDir);
-    var writer = require('./part-writer')(fileNameById, outChapterRenderedDir);
+    var reader = require('./part-reader')(fileNameById, config.outRawDir);
+    var writer = require('./part-writer')(fileNameById, config.outRenderedDir);
 
     renderer(index, reader, writer);
     next();
@@ -75,9 +69,9 @@ function render() {
 function bind() {
 
     var binder = require('./binder');
-    var reader = require('./part-reader')(fileNameById, outChapterRenderedDir);
+    var reader = require('./part-reader')(fileNameById, config.outRenderedDir);
 
-    binder(index, reader, outDir);
+    binder(index, reader);
     next();
 }
 
@@ -95,4 +89,21 @@ function next() {
 
 function fileNameById(part) {
     return part.id + '.html';
+}
+
+function getArg(argName) {
+
+    var argValue;
+
+    process.argv.forEach(function (val) {
+
+        var parts = val.split('=');
+
+        if (!parts.length > 1) return;
+        if (!parts[0] == argName) return;
+
+        argValue = parts[1];
+    });
+
+    return argValue;
 }

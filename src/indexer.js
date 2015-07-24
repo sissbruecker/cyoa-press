@@ -22,6 +22,8 @@ function toPart(line, index) {
     switch (type) {
         case 'chapter':
             return asChapter(index, type, parts);
+        case 'intro':
+            return asIntro(index, type, parts);
         default :
             return asGeneric(index, type, parts);
     }
@@ -38,6 +40,7 @@ function asChapter(index, type, parts) {
         type: type,
         heading: extractPart(parts, 1),
         name: extractPart(parts, 2),
+        src: url ? 'url' : null,
         url: url,
         indexable: true
     }
@@ -48,6 +51,17 @@ function asGeneric(index, type, parts) {
         id: index + 1,
         type: type,
         name: extractPart(parts, 1),
+        src: null,
+        indexable: false
+    }
+}
+
+function asIntro(index, type, parts) {
+    return {
+        id: index + 1,
+        type: type,
+        src: 'file',
+        path: extractPart(parts, 1),
         indexable: false
     }
 }

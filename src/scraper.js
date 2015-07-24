@@ -3,6 +3,7 @@
  */
 
 var getPost = require('./get-post');
+var getFile = require('./get-file');
 
 module.exports = function scrape(index, writer, callback) {
 
@@ -24,15 +25,27 @@ module.exports = function scrape(index, writer, callback) {
 
         var part = index[current];
 
-        if (part.type != 'chapter' || !part.url) {
-            console.log('Skipping non-content part ' + part.id);
-            nextPart();
-        } else {
-            console.log('Scraping part ' + part.id + ' (' + part.url + ')');
-            getPost(part, function (content) {
-                writer(part, content);
+        switch (part.src) {
+
+            case 'url':
+                console.log('Scraping part ' + part.id + ' from URL (' + part.url + ')');
+                getPost(part, function (content) {
+                    writer(part, content);
+                    nextPart();
+                });
+                break;
+
+            case 'file':
+                console.log('Scraping part ' + part.id + ' from file (' + part.path + ')');
+                getFile(part, function (content) {
+                    writer(part, content);
+                    nextPart();
+                });
+                break;
+
+            default:
+                console.log('Skipping non-content part ' + part.id);
                 nextPart();
-            });
         }
     }
 };

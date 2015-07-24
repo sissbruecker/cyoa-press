@@ -8,7 +8,9 @@ var loadTemplate = require('./renderers/load-template');
 
 var template = loadTemplate('complete');
 
-module.exports = function binder(index, reader, outPath) {
+var config = require('./config');
+
+module.exports = function binder(index, reader) {
 
     var title = extractTitle(index);
     var content = index.reduce(function(content, part) {
@@ -22,7 +24,7 @@ module.exports = function binder(index, reader, outPath) {
 
     var markup = renderTemplate(template, params);
 
-    fs.writeFileSync(path.join(outPath, 'complete.html'), markup);
+    fs.writeFileSync(path.join(config.outDir, 'complete.html'), markup);
 };
 
 function extractTitle(index) {
