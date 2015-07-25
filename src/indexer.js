@@ -8,8 +8,8 @@ module.exports = function readIndex(path) {
     var lines = fs.readFileSync(path).toString().split('\n');
 
     return lines
-        .map(toPart)
-        .filter(notNull);
+        .filter(notEmpty)
+        .map(toPart);
 };
 
 function toPart(line, index) {
@@ -75,6 +75,6 @@ function extractPart(parts, index) {
     return part.trim();
 }
 
-function notNull(item) {
-    return item != null;
+function notEmpty(line) {
+    return line && line.trim().length > 0;
 }

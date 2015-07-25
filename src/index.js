@@ -13,7 +13,9 @@ config.setBookDir(bookDir);
 var index;
 
 var program = [
-        prepareOutput,
+        clear,
+        prepare,
+        copy,
         readIndex,
         scrape,
         render,
@@ -23,15 +25,28 @@ var program = [
 
 next();
 
-function prepareOutput() {
+function clear() {
 
     fs.removeSync(config.outDir);
+
+    next();
+}
+
+function prepare() {
+
     fs.ensureDirSync(config.outDir);
     fs.ensureDirSync(config.outStyleDir);
+    fs.ensureDirSync(config.outScriptDir);
     fs.ensureDirSync(config.outRawDir);
     fs.ensureDirSync(config.outRenderedDir);
 
+    next();
+}
+
+function copy() {
+
     fs.copySync('styles', config.outStyleDir);
+    fs.copySync('scripts', config.outScriptDir);
 
     next();
 }
