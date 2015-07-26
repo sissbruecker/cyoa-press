@@ -35,6 +35,7 @@ function clear() {
 function prepare() {
 
     fs.ensureDirSync(config.outDir);
+    fs.ensureDirSync(config.outLibDir);
     fs.ensureDirSync(config.outStyleDir);
     fs.ensureDirSync(config.outScriptDir);
     fs.ensureDirSync(config.outRawDir);
@@ -45,6 +46,7 @@ function prepare() {
 
 function copy() {
 
+    fs.copySync('lib', config.outLibDir);
     fs.copySync('styles', config.outStyleDir);
     fs.copySync('scripts', config.outScriptDir);
 

@@ -5,10 +5,10 @@ intro | intro.html
 
 index
 
-chapter | h2 | Hello and Welcome | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-island.101083/#post-4010973
-chapter | h2 | Minds Will Be Blown | http://rpgcodex.net/forums/index.php?threads/lp-cyoa-test-run.101083/page-3#post-4012413
-chapter | h2 | At the End of the Ride | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-test-run.101083/page-6#post-4014220
-chapter | h2 | Alas, He Had to Go | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-test-run.101083/page-8#post-4016236
-chapter | h2 | To the Garden of Eden | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-test-run.101083/page-10#post-4020333
-chapter | h2 | The Price Has Been Paid | http://www.rpgcodex.net/forums/index.php?threads/lp-cyoa-test-run.101083/page-11#post-4022497
-chapter | h2 | What Lies at the End | http://rpgcodex.net/forums/index.php?threads/lp-cyoa-test-run.101083/page-13#post-4025187
+chapter | h2 | Hello and Welcome | http://www.rpgcodex.net/forums/index.php?posts/4010973
+chapter | h2 | Minds Will Be Blown | http://rpgcodex.net/forums/index.php?posts/4012413
+chapter | h2 | At the End of the Ride | http://www.rpgcodex.net/forums/index.php?posts/4014220
+chapter | h2 | Alas, He Had to Go | http://www.rpgcodex.net/forums/index.php?posts/4016236
+chapter | h2 | To the Garden of Eden | http://www.rpgcodex.net/forums/index.php?posts/4020333
+chapter | h2 | The Price Has Been Paid | http://www.rpgcodex.net/forums/index.php?posts/4022497
+chapter | h2 | What Lies at the End | http://rpgcodex.net/forums/index.php?posts/4025187

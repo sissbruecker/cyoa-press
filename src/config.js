@@ -9,6 +9,7 @@ config.setBookDir = function(dir) {
     config.bookDir = dir;
     config.indexPath = path.join(config.bookDir, 'index.txt');
     config.outDir = path.join(config.bookDir, 'out');
+    config.outLibDir = path.join(config.outDir, 'lib');
     config.outStyleDir = path.join(config.outDir, 'styles');
     config.outScriptDir = path.join(config.outDir, 'scripts');
     config.outRawDir = path.join(config.outDir, 'raw');
