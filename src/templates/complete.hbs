@@ -3,15 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>{{{title}}}</title>
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="styles/custom.css">
 
-    <script type="application/javascript" src="scripts/jquery.min.js"></script>
-    <script type="application/javascript" src="scripts/bootstrap.min.js"></script>
+    <script type="application/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script type="application/javascript" src="lib/js-cookie/js.cookie.js"></script>
+    <script type="application/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 
     <script type="application/javascript" src="scripts/spoiler.js"></script>
+    <script type="application/javascript" src="scripts/settings.js"></script>
 </head>
 <body>
+
+
+<div class="actions">
+    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#settings-popup">
+        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+    </button>
+</div>
+
+<div class="modal fade" id="settings-popup" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Settings</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="inputPageWidth" class="col-sm-4 control-label">Page width</label>
+                        <div class="col-sm-8">
+                            <div class="input-group">
+                                <input type="number" class="form-control" id="inputPageWidth" placeholder="Page width" step="50">
+                                <div class="input-group-addon">px</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputFontSize" class="col-sm-4 control-label">Font size</label>
+                        <div class="col-sm-8">
+                            <div class="input-group">
+                                <input type="number" class="form-control" id="inputFontSize" placeholder="Font size">
+                                <div class="input-group-addon">px</div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-reset">Reset</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     {{{content}}}
