@@ -9,3 +9,6 @@ chapter | h3 | Demon Lord&#039;s Castle | http://www.rpgcodex.net/forums/index.p
 chapter | h3 | The Final Battle | http://rpgcodex.net/forums/index.php?posts/4035886
 chapter | h3 | An Offering to the King of Demons | http://www.rpgcodex.net/forums/index.php?posts/4037417
 chapter | h3 | The Hero’s Destiny | http://www.rpgcodex.net/forums/index.php?posts/4039311
+chapter | h2 | Chapter One: A New World
+chapter | h3 | Rebirth | http://www.rpgcodex.net/forums/index.php?posts/4039371
+chapter | h3 | Awakening in the Ruins | http://www.rpgcodex.net/forums/index.php?posts/4041709
