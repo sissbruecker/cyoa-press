@@ -1,0 +1,63 @@
+body {
+    background: url("backgrounds/gray_jean.png") repeat;
+}
+
+.container {
+    background: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 65px;
+    width: 700px;
+    min-width: 500px;
+    max-width: 100%;
+
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.container img {
+    max-width: 100%;
+}
+
+div.intro {
+    margin-top: 60px;
+}
+
+div.index {
+    margin-top: 60px;
+}
+
+h1 {
+    margin-top: 60px;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+h3 {
+    margin-top: 60px;
+}
+
+h4 {
+    margin-top: 60px;
+}
+
+a.chapter-source-link {
+    color: inherit;
+}
+
+a.chapter-source-link:hover {
+    color: inherit;
+}
+
+.bbCodeQuote .quoteContainer .quoteExpand {
+    display: none;
+}
+
+.actions {
+    position: fixed;
+    top: 35px;
+    right: 35px;
+}

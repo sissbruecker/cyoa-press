@@ -1,0 +1,158 @@
+title | Warhammer: 41K
+author | root
+
+intro | intro.html
+
+index
+
+chapter | h2 | ACT 1:
+chapter | h3 | Update I: IT IS BETTER TO DIE FOR THE EMPEROR THAN TO LIVE FOR YOURSELF | http://www.rpgcodex.net/forums/index.php?posts/1431614
+chapter | h3 | Update II: IT IS BETTER TO DIE FOR THE EMPEROR THAN TO LIVE FOR YOURSELF PART DEUX | http://www.rpgcodex.net/forums/index.php?posts/1431792
+chapter | h3 | Update III: IT IS BETTER TO DIE FOR THE EMPEROR THAN TO LIVE FOR YOURSELF PART TROIKA | http://www.rpgcodex.net/forums/index.php?posts/1431990
+chapter | h3 | Update IV: IT WAS A DARK AND STORMY NIGHT | http://www.rpgcodex.net/forums/index.php?posts/1432809
+chapter | h3 | Update V: DEPTHS OF DEPRAVITY | http://www.rpgcodex.net/forums/index.php?posts/1433292
+chapter | h3 | Update VI: HE WHO FIGHTS MONSTERS | http://www.rpgcodex.net/forums/index.php?posts/1433640
+chapter | h3 | Update VII: NO TIME LIKE THE PRESENT | http://www.rpgcodex.net/forums/index.php?posts/1434106
+chapter | h3 | Update VIII: TOMBSTONE | http://www.rpgcodex.net/forums/index.php?posts/1434314
+chapter | h3 | Update IX: IMPERIAL MARCH | http://www.rpgcodex.net/forums/index.php?posts/1434989
+chapter | h3 | Update X: ENEMY AT THE GATES | http://www.rpgcodex.net/forums/index.php?posts/1435368
+chapter | h3 | Update XI: EXTREME MEASURES | http://www.rpgcodex.net/forums/index.php?posts/1435620
+chapter | h3 | Update XII: THE RIGHT CHOICE | http://www.rpgcodex.net/forums/index.php?posts/1436030
+chapter | h3 | Update XIII: DEATHLESS LEGIONS | http://www.rpgcodex.net/forums/index.php?posts/1436265
+chapter | h3 | Update XIV: FIRST TO FIGHT THE XENOS | http://www.rpgcodex.net/forums/index.php?posts/1437181
+chapter | h3 | Update XV: HOW I LEARNED TO STOP WORRYING AND LOVE THE BOMB | http://www.rpgcodex.net/forums/index.php?posts/1437455
+chapter | h3 | Update XVI: SOMETHING ROTTEN IN THE IMPERIUM OF MAN | http://www.rpgcodex.net/forums/index.php?posts/1438989
+chapter | h3 | Update XVII: THE BLACK SHIPS | http://www.rpgcodex.net/forums/index.php?posts/1441157
+chapter | h3 | Update XVIII: UNUSUAL CIRCUMSTANCES | http://www.rpgcodex.net/forums/index.php?posts/1442491
+chapter | h3 | Update XIX: WAR MACHINE | http://www.rpgcodex.net/forums/index.php?posts/1442828
+chapter | h3 | Update XX: SPACE HULK | http://www.rpgcodex.net/forums/index.php?posts/1444033
+chapter | h3 | Update XXI: ROLL OUT | http://www.rpgcodex.net/forums/index.php?posts/1445731
+chapter | h3 | Update XXII: LET'S PLAY A LITTLE GAME OF YOU | http://www.rpgcodex.net/forums/index.php?posts/1446283
+chapter | h3 | Update: XXIII: DAWN OF WAR | http://www.rpgcodex.net/forums/index.php?posts/1446592
+chapter | h3 | Update XXIV: IT CAME FROM OUTSIDE | http://www.rpgcodex.net/forums/index.php?posts/1447666
+chapter | h3 | Update XXV: CHAOS RISING | http://www.rpgcodex.net/forums/index.php?posts/1448721
+chapter | h3 | Update XXVI: THE LONGEST DAY | http://www.rpgcodex.net/forums/index.php?posts/1449182
+chapter | h3 | Update XXVII: LOOK UPON MY WORKS, YE MIGHTY, AND DESPAIR | http://www.rpgcodex.net/forums/index.php?posts/1450119
+chapter | h3 | Update XVIII: TRICKERY | http://www.rpgcodex.net/forums/index.php?posts/1452784
+chapter | h3 | Update XXIX: DIVIDE ET IMPERA | http://www.rpgcodex.net/forums/index.php?posts/1454094
+chapter | h3 | Update XXX: THE LHO-STICK SMOKING MAN | http://www.rpgcodex.net/forums/index.php?posts/1459322
+chapter | h3 | Update XXXI: SUB UMBRA ALARUM TUARUM | http://www.rpgcodex.net/forums/index.php?posts/1463105
+chapter | h3 | Update XXXII: NO GODS, NO MASTERS | http://www.rpgcodex.net/forums/index.php?posts/1465759
+
+chapter | h2 | EXTRAS:
+chapter | h3 | Brother-Commander's Journal, 998.M41 | http://www.rpgcodex.net/forums/index.php?posts/1434448
+chapter | h3 | SPACE MARINES CHAPTER: EXTERMINATING ANGELS | http://www.rpgcodex.net/forums/index.php?posts/1432873
+chapter | h3 | THE GRIM REAPER'S TALE | http://www.rpgcodex.net/forums/index.php?posts/1443928
+chapter | h3 | THE LORE KEEPER'S TALE | http://www.rpgcodex.net/forums/index.php?posts/1459667
+chapter | h3 | THE RECLUSIARCH ASCENDANT | http://www.rpgcodex.net/forums/index.php?posts/1460056
+chapter | h3 | THE RED CYCLOPS | http://www.rpgcodex.net/forums/index.php?posts/1439815
+chapter | h3 | STAR GODS | http://www.rpgcodex.net/forums/index.php?posts/1450162
+
+chapter | h2 | ACT 2:
+chapter | h3 | PROLOGUE: ALL THE WORLD'S COMING TO CALIXIS | http://www.rpgcodex.net/forums/index.php?posts/1470374
+chapter | h3 | Update I: THE LORD CALIXIS | http://www.rpgcodex.net/forums/index.php?posts/1471508
+chapter | h3 | Update II: A QUESTION OF TRUST | http://www.rpgcodex.net/forums/index.php?posts/1472085
+chapter | h3 | Update III: OF MALFI AND MEN | http://www.rpgcodex.net/forums/index.php?posts/1473461
+chapter | h3 | Update IV: BLOODY MURDER | http://www.rpgcodex.net/forums/index.php?posts/1474204
+chapter | h3 | Update V: DARK DREAMS UPON THE HEART | http://www.rpgcodex.net/forums/index.php?posts/1475704
+chapter | h3 | Update VI: IN HIS CITY BENEATH THE WAVES, MARIUS HAX LIES DREAMING | http://www.rpgcodex.net/forums/index.php?posts/1476508
+chapter | h3 | UPDATE VII: DAMNED IF YOU DO, DAMNED IF YOU DON'T | http://www.rpgcodex.net/forums/index.php?posts/1480295
+chapter | h3 | UPDATE VIII: A GAME OF GODS | http://www.rpgcodex.net/forums/index.php?posts/1480715
+chapter | h3 | UPDATE IX: DARK PASSENGER | http://www.rpgcodex.net/forums/index.php?posts/1484136
+chapter | h3 | UPDATE X: TASTE IN MEN | http://www.rpgcodex.net/forums/index.php?posts/1488515
+chapter | h3 | UPDATE XI: FROM DAWN TO DUSK | http://www.rpgcodex.net/forums/index.php?posts/1490577
+chapter | h3 | UPDATE XII: FOR WHOM THE BELL TOLLS | http://www.rpgcodex.net/forums/index.php?posts/1491888
+chapter | h3 | UPDATE XIII: A SHADOW OUT OF TIME | http://www.rpgcodex.net/forums/index.php?posts/1495112
+chapter | h3 | UPDATE XIV: FIRESTORM OVER CALIXIS | http://www.rpgcodex.net/forums/index.php?posts/1498235
+chapter | h3 | UPDATE XV: THAT IS NOT DEAD WHICH CAN ETERNAL LIE | http://www.rpgcodex.net/forums/index.php?posts/1502273
+chapter | h3 | UPDATE XVI: THE STORM OF THE EMPEROR'S WRATH | http://www.rpgcodex.net/forums/index.php?posts/1503764
+chapter | h3 | UPDATE XVII: BONFIRE OF VANITIES | http://www.rpgcodex.net/forums/index.php?posts/1507375
+chapter | h3 | UPDATE XVIII: SYMPATHY FOR THE DEVIL | http://www.rpgcodex.net/forums/index.php?posts/1510094
+chapter | h3 | UPDATE XIX: THE ROAD TO HELL | http://www.rpgcodex.net/forums/index.php?posts/1511310
+chapter | h3 | UPDATE XX: A GENTLEMAN'S GAME | http://www.rpgcodex.net/forums/index.php?posts/1512936
+chapter | h3 | UPDATE XXI: OUT OF THE FRYING PAN | http://www.rpgcodex.net/forums/index.php?posts/1516205
+chapter | h3 | UPDATE XXII: AND INTO THE FIRE | http://www.rpgcodex.net/forums/index.php?posts/1517723
+chapter | h3 | UPDATE XXIII: THE TRIAL OF MARIUS HAX - PART 1 | http://www.rpgcodex.net/forums/index.php?posts/1519182
+chapter | h3 | UPDATE XXIV: THE TRIAL OF MARIUS HAX - PART 2 | http://www.rpgcodex.net/forums/index.php?posts/1519496
+chapter | h3 | UPDATE XXV: THE TRIAL OF MARIUS HAX - PART 3 | http://www.rpgcodex.net/forums/index.php?posts/1520739
+chapter | h3 | UPDATE XXVI: INNOCENCE PROVES NOTHING | http://www.rpgcodex.net/forums/index.php?posts/1520842
+chapter | h3 | UPDATE XXVII: WE WHO ARE ABOUT TO DIE | http://www.rpgcodex.net/forums/index.php?posts/1522112
+chapter | h3 | UPDATE XXVIII: HIS RED RIGHT HAND | http://www.rpgcodex.net/forums/index.php?posts/1523400
+chapter | h3 | UPDATE XXIX: GHOSTS IN THE MACHINE | http://www.rpgcodex.net/forums/index.php?posts/1524787
+chapter | h3 | UPDATE XXX: BAND OF BROTHERS | http://www.rpgcodex.net/forums/index.php?posts/1525006
+
+chapter | h2 | EXTRAS:
+chapter | h3 | THE GREAT ENEMY'S CHILDREN | http://www.rpgcodex.net/forums/index.php?posts/1479079
+chapter | h3 | THE BETRAYER'S TALE | http://www.rpgcodex.net/forums/index.php?posts/1487190
+chapter | h3 | THE BLUE SCRIBES OF TZEENTCH | http://www.rpgcodex.net/forums/index.php?posts/1495514
+chapter | h3 | THE FORGES OF MARS | http://www.rpgcodex.net/forums/index.php?posts/1511780
+chapter | h3 | CADIAN WALTZ | http://www.rpgcodex.net/forums/index.php?posts/1516651
+chapter | h3 | THE NECRONTYR'S TALE | http://www.rpgcodex.net/forums/index.php?posts/1523886
+chapter | h3 | A 'WHAT IF' ENDING: BRAVE NEW WORLD | http://www.rpgcodex.net/forums/index.php?posts/1524613
+
+chapter | h2 | INTERLUDE: A SIX PART ADVENTURE WITH A BAND OF BROTHERS!
+chapter | h3 | I: ENEMY MINE | http://www.rpgcodex.net/forums/index.php?posts/1532623
+chapter | h3 | II: ETERNAL DARKNESS | http://www.rpgcodex.net/forums/index.php?posts/1536141
+chapter | h3 | III: A FATHER TO HIS MEN | http://www.rpgcodex.net/forums/index.php?posts/1539272
+chapter | h3 | IV: THE HEART OF THE SWARM | http://www.rpgcodex.net/forums/index.php?posts/1545847
+chapter | h3 | V: ALL OF LIFE FEARS THE REAPER | http://www.rpgcodex.net/forums/index.php?posts/1548191
+chapter | h3 | VI: DELIVERANCE | http://www.rpgcodex.net/forums/index.php?posts/1549928
+
+chapter | h2 | EXTRA:
+chapter | h3 | THE WORD OF GOD | http://www.rpgcodex.net/forums/index.php?posts/1548844
+
+chapter | h2 | ACT 3:
+chapter | h3 | UPDATE 0: PROLOGUE | http://www.rpgcodex.net/forums/index.php?posts/1558614
+chapter | h3 | UPDATE I: THE IMPERIUM OF MAN | http://www.rpgcodex.net/forums/index.php?posts/1560004
+chapter | h3 | UPDATE II: THE BOYZ ARE BACK | http://www.rpgcodex.net/forums/index.php?posts/1564687
+chapter | h3 | UPDATE III: GORK'LL GET 'EM | http://www.rpgcodex.net/forums/index.php?posts/1567025
+chapter | h3 | UPDATE IV: ONE LAST TIME UNTO THE BREACH | http://www.rpgcodex.net/forums/index.php?posts/1569061
+chapter | h3 | UPDATE V: USE OF WEAPONS | http://www.rpgcodex.net/forums/index.php?posts/1570297
+chapter | h3 | UPDATE VI: JUDGEMENT | http://www.rpgcodex.net/forums/index.php?posts/1570923
+chapter | h3 | UPDATE VII: SCOURGE OF GOD | http://www.rpgcodex.net/forums/index.php?posts/1572092
+chapter | h3 | UPDATE VIII: VALHALLA BURNING | http://www.rpgcodex.net/forums/index.php?posts/1574826
+chapter | h3 | UPDATE IX: BIG DEATH | http://www.rpgcodex.net/forums/index.php?posts/1577654
+chapter | h3 | UPDATE X: EBBS AND TIDES | http://www.rpgcodex.net/forums/index.php?posts/1581479
+chapter | h3 | UPDATE XI: EXCESSION | http://www.rpgcodex.net/forums/index.php?posts/1582874
+chapter | h3 | UPDATE XII: A TALE OF TWO WILLS | http://www.rpgcodex.net/forums/index.php?posts/1585296
+chapter | h3 | UPDATE XIII: TOTAL WAR | http://www.rpgcodex.net/forums/index.php?posts/1586487
+chapter | h3 | UPDATE XIV: UNFORESEEN CONSEQUENCES | http://www.rpgcodex.net/forums/index.php?posts/1598242
+chapter | h3 | UPDATE XV: FACTION CHOICE | http://www.rpgcodex.net/forums/index.php?posts/1602456
+chapter | h3 | UPDATE XVI: AND THEY SHALL KNOW NO FEAR | http://www.rpgcodex.net/forums/index.php?posts/1609677
+chapter | h3 | UPDATE XVII: PHALANX | http://www.rpgcodex.net/forums/index.php?posts/1615415
+chapter | h3 | UPDATE XVIII: GREEN FIELDS OF RYNN | http://www.rpgcodex.net/forums/index.php?posts/1631984
+chapter | h3 | UPDATE XIX: ALL IN A DAY'S WORK | http://www.rpgcodex.net/forums/index.php?posts/1641582
+chapter | h3 | UPDATE XX: SHIPPING UP TO CHARADON | http://www.rpgcodex.net/forums/index.php?posts/1647382
+chapter | h3 | UPDATE XXI: THE EMPEROR'S JUDGEMENT | http://www.rpgcodex.net/forums/index.php?posts/1659974
+chapter | h3 | UPDATE XXII: THERE BUT FOR THE GRACE OF GOD | http://www.rpgcodex.net/forums/index.php?posts/1667781
+
+chapter | h2 | EXTRAS:
+chapter | h3 | THE DRAGON AND SAINT GEORGE | http://www.rpgcodex.net/forums/index.php?posts/1582974
+chapter | h3 | FAVOURED SON | http://www.rpgcodex.net/forums/index.php?posts/1588138
+chapter | h3 | WARMASTER | http://www.rpgcodex.net/forums/index.php?posts/1592605
+chapter | h3 | CHAOS UNDIVIDED | http://www.rpgcodex.net/forums/index.php?posts/1594752
+chapter | h3 | THREADS OF FATE | http://www.rpgcodex.net/forums/index.php?posts/1650608
+chapter | h3 | THREADS OF FATE - PART 2 | http://www.rpgcodex.net/forums/index.php?posts/1654871
+chapter | h3 | THREADS OF FATE - PART 3: DEUS EX MACHINA | http://www.rpgcodex.net/forums/index.php?posts/1656242
+
+chapter | h2 | ACT 4:
+chapter | h3 | UPDATE I: INTO THE STORM | http://www.rpgcodex.net/forums/index.php?posts/1670585
+chapter | h3 | UPDATE II: ONE STEP FROM HELL | http://www.rpgcodex.net/forums/index.php?posts/1677781
+chapter | h3 | UPDATE III: LET THE GALAXY BURN | http://www.rpgcodex.net/forums/index.php?posts/1681353
+chapter | h3 | UPDATE IV: HARLEQUIN'S KISS | http://www.rpgcodex.net/forums/index.php?posts/1694503
+chapter | h3 | UPDATE V: THE LORD CALIXIS' LEGACY | http://www.rpgcodex.net/forums/index.php?posts/1703679
+chapter | h3 | UPDATE VI: WAVE OF MUTILATION | http://www.rpgcodex.net/forums/index.php?posts/1714435
+chapter | h3 | UPDATE VII: REVELATION | http://www.rpgcodex.net/forums/index.php?posts/1715868
+chapter | h3 | UPDATE VIII: THE CRIMSON KING | http://www.rpgcodex.net/forums/index.php?posts/1718740
+chapter | h3 | UPDATE IX: MALCADOR'S LAST GIFT | http://www.rpgcodex.net/forums/index.php?posts/1732844
+chapter | h3 | UPDATE X: ONE LAST TIME | http://www.rpgcodex.net/forums/index.php?posts/1738482
+chapter | h3 | UPDATE XI: MACHINE MESSIAH | http://www.rpgcodex.net/forums/index.php?posts/1779631
+chapter | h3 | UPDATE XII: EPITAPH | http://www.rpgcodex.net/forums/index.php?posts/1842601
+chapter | h3 | UPDATE XIII: DARKEST HOUR | http://www.rpgcodex.net/forums/index.php?posts/1861418
+chapter | h3 | UPDATE XIV: APOCALYPSE | http://www.rpgcodex.net/forums/index.php?posts/1875938
+
+chapter | h2 | EXTRA:
+chapter | h3 | ALL IS DUST | http://www.rpgcodex.net/forums/index.php?posts/1738641
+chapter | h3 | THE CRAVEN GOD | http://www.rpgcodex.net/forums/index.php?posts/1796189
+chapter | h3 | QUOTH THE RAVING | http://www.rpgcodex.net/forums/index.php?posts/1851496
+chapter | h3 | EPILOGUE | http://www.rpgcodex.net/forums/index.php?posts/1877926

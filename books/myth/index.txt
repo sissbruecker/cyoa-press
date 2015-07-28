@@ -1,6 +1,8 @@
 title | Myth: A New Age
 author | Fangshi
 
+index
+
 chapter | h2 | Prologue
 chapter | h3 | Chapter 1: A New Age | http://www.rpgcodex.net/forums/index.php?posts/3058439
 chapter | h3 | Chapter 2: The Scavenger | http://www.rpgcodex.net/forums/index.php?posts/3060486
