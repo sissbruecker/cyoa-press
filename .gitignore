@@ -6,4 +6,7 @@ node_modules
 books/*/out/raw
 books/*/out/rendered
 
+games/*/out/raw
+games/*/out/rendered
+
 temp

@@ -1,0 +1,168 @@
+title | Epic - Book One: The Epic of Ean
+
+author | treave
+
+index
+
+chapter | h2 | Chapter One: Humble Beginnings
+chapter | h3 | Chapter 1.1: To The Beginning | http://www.rpgcodex.net/forums/index.php?posts/2155328
+chapter | h3 | Chapter 1.2: A Small Step | http://www.rpgcodex.net/forums/index.php?posts/2155382
+chapter | h3 | Chapter 1.3: The First Power | http://www.rpgcodex.net/forums/index.php?posts/2156556
+chapter | h3 | Chapter 1.4: Sargon's Ambition | http://www.rpgcodex.net/forums/index.php?posts/2157133
+chapter | h3 | Chapter 1.5: The Battle for Memphis | http://www.rpgcodex.net/forums/index.php?posts/2157301
+chapter | h3 | Chapter 1.6: Tendrils in the Desert | http://www.rpgcodex.net/forums/index.php?posts/2159423
+chapter | h3 | Chapter 1.7: Memphis Falls | http://www.rpgcodex.net/forums/index.php?posts/2160405
+chapter | h3 | Chapter 1.8: Return to Sumeria | http://www.rpgcodex.net/forums/index.php?posts/2160547
+chapter | h3 | Chapter 1.9: A Hand for Trust | http://www.rpgcodex.net/forums/index.php?posts/2160827
+chapter | h3 | Chapter 1.10: At the Walls of Akkad | http://www.rpgcodex.net/forums/index.php?posts/2162026
+chapter | h3 | Chapter 1.11: Prince's Folly | http://www.rpgcodex.net/forums/index.php?posts/2162953
+chapter | h3 | Chapter 1.12: Dam If You Do | http://www.rpgcodex.net/forums/index.php?posts/2163648
+chapter | h3 | Chapter 1.13: The Flood of Akkad | http://www.rpgcodex.net/forums/index.php?posts/2166641
+
+chapter | h2 | Interlude: Ean of the Akkadian Empire (circa 2300 B.C.) | http://www.rpgcodex.net/forums/index.php?posts/2167937
+
+chapter | h2 | Chapter Two: Lord of Sumeria
+chapter | h3 | Chapter 2.1: King | http://www.rpgcodex.net/forums/index.php?posts/2167394
+chapter | h3 | Chapter 2.2: Ten Years Later | http://www.rpgcodex.net/forums/index.php?posts/2168687
+chapter | h3 | Chapter 2.3: The Empty City | http://www.rpgcodex.net/forums/index.php?posts/2170080
+chapter | h3 | Chapter 2.4: Tuwanu of the Dead | http://www.rpgcodex.net/forums/index.php?posts/2171674
+chapter | h3 | Chapter 2.5: Battle Plans | http://www.rpgcodex.net/forums/index.php?posts/2172915
+chapter | h3 | Chapter 2.6: Cautious Commander | http://www.rpgcodex.net/forums/index.php?posts/2175518
+chapter | h3 | Chapter 2.7: Misstep | http://www.rpgcodex.net/forums/index.php?posts/2176531
+chapter | h3 | Chapter 2.8: Sumeria Again | http://www.rpgcodex.net/forums/index.php?posts/2178014
+
+chapter | h2 | Interlude: Ean, Sumerian Wanderer (circa 2000 B.C.) | http://www.rpgcodex.net/forums/index.php?posts/2179201
+
+chapter | h2 | Chapter Three: The Sands of Egypt
+chapter | h3 | Chapter 3.1: End of the Old Kingdom | http://www.rpgcodex.net/forums/index.php?posts/2179196
+chapter | h2 | Intermission: The Gieloth Cult | http://www.rpgcodex.net/forums/index.php?posts/2180631
+chapter | h3 | Chapter 3.2: Before Heliopolis | http://www.rpgcodex.net/forums/index.php?posts/2180662
+chapter | h3 | Chapter 3.3: Heliopolis - The Night Before the Storm | http://www.rpgcodex.net/forums/index.php?posts/2181159
+chapter | h3 | Chapter 3.4: Beneath the Temple | http://www.rpgcodex.net/forums/index.php?posts/2183037
+chapter | h3 | Chapter 3.5: Fight in the Dark | http://www.rpgcodex.net/forums/index.php?posts/2184067
+chapter | h3 | Chapter 3.6: Incubator | http://www.rpgcodex.net/forums/index.php?posts/2185245
+chapter | h3 | Chapter 3.7: Smothered Flames | http://www.rpgcodex.net/forums/index.php?posts/2186118
+chapter | h3 | Chapter 3.8: Deadly Herbivores | http://www.rpgcodex.net/forums/index.php?posts/2187361
+chapter | h3 | Chapter 3.9: The Sceptre of Ra | http://www.rpgcodex.net/forums/index.php?posts/2188968
+chapter | h3 | Chapter 3.10: Sekhenun's End | http://www.rpgcodex.net/forums/index.php?posts/2190106
+chapter | h3 | Chapter 3.11: Learning | http://www.rpgcodex.net/forums/index.php?posts/2190677
+chapter | h3 | Chapter 3.12: The World is Your Oyster | http://www.rpgcodex.net/forums/index.php?posts/2191430
+chapter | h3 | Chapter 3.13: Egypt Aflame | http://www.rpgcodex.net/forums/index.php?posts/2191986
+chapter | h3 | Chapter 3.14: A Dark Proposal | http://www.rpgcodex.net/forums/index.php?posts/2194363
+chapter | h3 | Chapter 3.15: Astarth's Game | http://www.rpgcodex.net/forums/index.php?posts/2195417
+chapter | h3 | Chapter 3.16: Babylon Strikes | http://www.rpgcodex.net/forums/index.php?posts/2196095
+chapter | h3 | Chapter 3.17: Fortress Tjaru | http://www.rpgcodex.net/forums/index.php?posts/2197360
+chapter | h3 | Chapter 3.18: The Night Before Battle | http://www.rpgcodex.net/forums/index.php?posts/2198278
+chapter | h3 | Chapter 3.19: Solitary Scout | http://www.rpgcodex.net/forums/index.php?posts/2199728
+chapter | h3 | Chapter 3.20: Deadly Desert Deathmatch | http://www.rpgcodex.net/forums/index.php?posts/2202184
+chapter | h3 | Chapter 3.21: Battle for Tjaru | http://www.rpgcodex.net/forums/index.php?posts/2204233
+chapter | h3 | Chapter 3.22: Hold the Wall | http://www.rpgcodex.net/forums/index.php?posts/2205781
+chapter | h3 | Chapter 3.23: Dawn of the Middle Kingdom | http://www.rpgcodex.net/forums/index.php?posts/2208144
+
+chapter | h2 | Chapter Four: Search for Power
+chapter | h3 | Chapter 4.1: Setting Sail | http://www.rpgcodex.net/forums/index.php?posts/2216132
+chapter | h3 | Chapter 4.2: Aphrodite | http://www.rpgcodex.net/forums/index.php?posts/2217621
+chapter | h3 | Chapter 4.3: Vagaries of the Love Priestess | http://www.rpgcodex.net/forums/index.php?posts/2220247
+chapter | h3 | Chapter 4.4: The Palace of Knossos | http://www.rpgcodex.net/forums/index.php?posts/2223330
+chapter | h3 | Chapter 4.5: The Love Potion | http://www.rpgcodex.net/forums/index.php?posts/2224219
+chapter | h3 | Chapter 4.6: A Tangled Web | http://www.rpgcodex.net/forums/index.php?posts/2226061
+chapter | h3 | Chapter 4.7: The Labyrinth of the Minotaur | http://www.rpgcodex.net/forums/index.php?posts/2229493
+chapter | h3 | Chapter 4.8: Power | http://www.rpgcodex.net/forums/index.php?posts/2235956
+chapter | h3 | Chapter 4.9: Daedalus's Tower | http://www.rpgcodex.net/forums/index.php?posts/2237674
+chapter | h3 | Chapter 4.10: Escape from Knossos | http://www.rpgcodex.net/forums/index.php?posts/2239066
+chapter | h3 | Chapter 4.11: Greece at War | http://www.rpgcodex.net/forums/index.php?posts/2242470
+chapter | h3 | Chapter 4.12: Mehrune's Whereabouts | http://www.rpgcodex.net/forums/index.php?posts/2243920
+
+chapter | h2 | Interlude: Ean, Reawakened Immortal (circa 1900 B.C.) | http://www.rpgcodex.net/forums/index.php?posts/2244083
+
+chapter | h2 | Chapter Five: The God-King's Ambitions
+chapter | h3 | Chapter 5.1: A Tiny Little Hunger | http://www.rpgcodex.net/forums/index.php?posts/2245129
+chapter | h3 | Chapter 5.2: Curse and Blessing | http://www.rpgcodex.net/forums/index.php?posts/2246295
+chapter | h3 | Chapter 5.3: The Marks | http://www.rpgcodex.net/forums/index.php?posts/2249168
+chapter | h3 | Chapter 5.4: Mehlu | http://www.rpgcodex.net/forums/index.php?posts/2251380
+chapter | h3 | Chapter 5.5: Gudersu and the Gutians | http://www.rpgcodex.net/forums/index.php?posts/2252442
+chapter | h3 | Chapter 5.6: Gamilsin | http://www.rpgcodex.net/forums/index.php?posts/2253652
+chapter | h3 | Chapter 5.7: East of Babylon | http://www.rpgcodex.net/forums/index.php?posts/2255255
+chapter | h3 | Chapter 5.8: Contingency Plan | http://www.rpgcodex.net/forums/index.php?posts/2256406
+chapter | h3 | Chapter 5.9: Nusku | http://www.rpgcodex.net/forums/index.php?posts/2259721
+chapter | h3 | Chapter 5.10: The Next Step | http://www.rpgcodex.net/forums/index.php?posts/2262173
+chapter | h3 | Chapter 5.11: Revolution | http://www.rpgcodex.net/forums/index.php?posts/2265288
+chapter | h3 | Chapter 5.12: Anbar-Shi | http://www.rpgcodex.net/forums/index.php?posts/2269740
+chapter | h3 | Chapter 5.13: The Besieged Border Fort | http://www.rpgcodex.net/forums/index.php?posts/2272741
+chapter | h3 | Chapter 5.14: Terror in Tjaru | http://www.rpgcodex.net/forums/index.php?posts/2274784
+chapter | h3 | Chapter 5.15: Invade the Delta | http://www.rpgcodex.net/forums/index.php?posts/2276642
+chapter | h3 | Chapter 5.16: Lying in Wait | http://www.rpgcodex.net/forums/index.php?posts/2278007
+chapter | h3 | Chapter 5.17: In the Shadow of Olympus | http://www.rpgcodex.net/forums/index.php?posts/2280304
+chapter | h3 | Chapter 5.18: Peak | http://www.rpgcodex.net/forums/index.php?posts/2286517
+chapter | h3 | Chapter 5.19: Thunderstruck | http://www.rpgcodex.net/forums/index.php?posts/2289020
+chapter | h3 | Chapter 5.20a: Tea-Time With Zeus | http://www.rpgcodex.net/forums/index.php?posts/2290507
+chapter | h3 | Chapter 5.20b: Ruin of Olympus | http://www.rpgcodex.net/forums/index.php?posts/2291711
+chapter | h3 | Chapter 5.21: Cataclysm | http://www.rpgcodex.net/forums/index.php?posts/2293703
+
+chapter | h2 | Interlude: After the Cataclysm | http://www.rpgcodex.net/forums/index.php?posts/2293957
+
+chapter | h2 | Chapter Six: The Changing World
+chapter | h3 | Chapter 6.1: What Happens Next | http://www.rpgcodex.net/forums/index.php?posts/2294118
+chapter | h3 | Chapter 6.2: Foundation of Empire | http://www.rpgcodex.net/forums/index.php?posts/2296139
+chapter | h3 | Chapter 6.3: Rendezvous in Athens | http://www.rpgcodex.net/forums/index.php?posts/2298205
+chapter | h3 | Intermission: Terasphagos (~1890 B.C. / 5 A.C.) | http://www.rpgcodex.net/forums/index.php?posts/2299378
+chapter | h3 | Chapter 6.4: The Gutian Dilemma | http://www.rpgcodex.net/forums/index.php?posts/2299607
+chapter | h3 | Chapter 6.5: The Hidden Hand | http://www.rpgcodex.net/forums/index.php?posts/2301707
+chapter | h3 | Chapter 6.6: Ten Years to the Founding | http://www.rpgcodex.net/forums/index.php?posts/2303241
+chapter | h3 | Chapter 6.7: Hattusa Kneels | http://www.rpgcodex.net/forums/index.php?posts/2307118
+chapter | h3 | Chapter 6.8: The Rift Incursion | http://www.rpgcodex.net/forums/index.php?posts/2308846
+chapter | h3 | Intermission: The Empire (30 A.C.) | http://www.rpgcodex.net/forums/index.php?posts/2309147
+chapter | h3 | Chapter 6.9: Miasma Maze | http://www.rpgcodex.net/forums/index.php?posts/2310964
+chapter | h3 | Chapter 6.10: Lodestone and the Rift | http://www.rpgcodex.net/forums/index.php?posts/2315018
+chapter | h3 | Chapter 6.11: The Second Terasphagos Incursion | http://www.rpgcodex.net/forums/index.php?posts/2316731
+chapter | h3 | Chapter 6.12: Son of a Breach | http://www.rpgcodex.net/forums/index.php?posts/2321460
+chapter | h3 | Chapter 6.13: The Great Wall of Korinthos | http://www.rpgcodex.net/forums/index.php?posts/2323380
+chapter | h3 | Chapter 6.14: Purple Rift | http://www.rpgcodex.net/forums/index.php?posts/2324881
+chapter | h3 | Chapter 6.15: A Void Full of Balls | http://www.rpgcodex.net/forums/index.php?posts/2327219
+chapter | h3 | Chapter 6.16: Sphere Diplomacy | http://www.rpgcodex.net/forums/index.php?posts/2328606
+chapter | h3 | Chapter 6.17: Playtime | http://www.rpgcodex.net/forums/index.php?posts/2329835
+chapter | h3 | Chapter 6.18: Home is Where the Heart is http://www.rpgcodex.net/forums/index.php?posts/2331315
+
+chapter | h2 | Interlude: Escape | http://www.rpgcodex.net/forums/index.php?posts/2331583
+
+chapter | h2 | Chapter Seven: Pretenders to the Empire
+chapter | h3 | Chapter 7.1: Prelude to a Storm | http://www.rpgcodex.net/forums/index.php?posts/2333185
+chapter | h3 | Intermission: State of the Empire (~3rd Millennium) | http://www.rpgcodex.net/forums/index.php?posts/2333805
+chapter | h3 | Chapter 7.2: Diogenes Camna | http://www.rpgcodex.net/forums/index.php?posts/2335386
+chapter | h3 | Chapter 7.3: Death, Banquets and the Idea of Love | http://www.rpgcodex.net/forums/index.php?posts/2337078
+chapter | h3 | Chapter 7.4: Surfacing Memories | http://www.rpgcodex.net/forums/index.php?posts/2338259
+chapter | h3 | Chapter 7.5: Murderous Rat, Cunning Snake | http://www.rpgcodex.net/forums/index.php?posts/2339719
+chapter | h3 | Chapter 7.6: House Arrest | http://www.rpgcodex.net/forums/index.php?posts/2341174
+chapter | h3 | Chapter 7.7: Spinning a Web | http://www.rpgcodex.net/forums/index.php?posts/2343148
+chapter | h3 | Chapter 7.8: Travel Plans | http://www.rpgcodex.net/forums/index.php?posts/2348560
+chapter | h3 | Chapter 7.9: Scheming in Crete | http://www.rpgcodex.net/forums/index.php?posts/2352623
+chapter | h3 | Chapter 7.10: Guns and Glory | http://www.rpgcodex.net/forums/index.php?posts/2357129
+chapter | h3 | Chapter 7.11: Cold Winds of Change | http://www.rpgcodex.net/forums/index.php?posts/2362770
+chapter | h3 | Chapter 7.12: Initiation Rites | http://www.rpgcodex.net/forums/index.php?posts/2365094
+chapter | h3 | Chapter 7.13: Into the Darkness | http://www.rpgcodex.net/forums/index.php?posts/2367668
+chapter | h3 | Chapter 7.14: The Wolf's Question | http://www.rpgcodex.net/forums/index.php?posts/2369548
+chapter | h3 | Chapter 7.15: The Wolf's Answer | http://www.rpgcodex.net/forums/index.php?posts/2380165
+chapter | h3 | Chapter 7.16: Shadow on the Steppe | http://www.rpgcodex.net/forums/index.php?posts/2382702
+chapter | h3 | Chapter 7.17: Fort Euphraxes | http://www.rpgcodex.net/forums/index.php?posts/2385646
+chapter | h3 | Chapter 7.18: Silent Fort | http://www.rpgcodex.net/forums/index.php?posts/2394392
+chapter | h3 | Chapter 7.19: Ambush, Campfire and the Young Soldier | http://www.rpgcodex.net/forums/index.php?posts/2401502
+chapter | h3 | Chapter 7.20: Massacre at Fort Euphraxes | http://www.rpgcodex.net/forums/index.php?posts/2407437
+chapter | h3 | Chapter 7.21: Ban's Butchery | http://www.rpgcodex.net/forums/index.php?posts/2411080
+chapter | h3 | Chapter 7.22: The Cursed Sword | http://www.rpgcodex.net/forums/index.php?posts/2413301
+chapter | h3 | Chapter 7.23: Diogenes the Hero | http://www.rpgcodex.net/forums/index.php?posts/2415769
+
+chapter | h2 | Interlude: Awakening | http://www.rpgcodex.net/forums/index.php?posts/2417327
+
+chapter | h2 | Chapter Eight: The Divine Throne
+chapter | h3 | Chapter 8.1: The More Things Change | http://www.rpgcodex.net/forums/index.php?posts/2418987
+chapter | h3 | Chapter 8.2: The Lady of the Martyrs | http://www.rpgcodex.net/forums/index.php?posts/2420895
+chapter | h3 | Chapter 8.3: Meeting the Band | http://www.rpgcodex.net/forums/index.php?posts/2423066
+chapter | h3 | Chapter 8.4: First Aid | http://www.rpgcodex.net/forums/index.php?posts/2431633
+chapter | h3 | Chapter 8.5: The Sacred Tree | http://www.rpgcodex.net/forums/index.php?posts/2432979
+chapter | h3 | Chapter 8.6: The Tree of Life | http://www.rpgcodex.net/forums/index.php?posts/2435236
+chapter | h3 | Chapter 8.7: Winds of Omen | http://www.rpgcodex.net/forums/index.php?posts/2435294
+chapter | h3 | Chapter 8.8: The Clear Blue Sky | http://www.rpgcodex.net/forums/index.php?posts/2435471
+
+chapter | h2 | Epilogue: Flowers of Inanna | http://www.rpgcodex.net/forums/index.php?posts/2435487
+
+chapter | h2 | Another Epilogue: Somewhere in the multiverse... | http://www.rpgcodex.net/forums/index.php?posts/2435531
