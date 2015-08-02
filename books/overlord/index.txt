@@ -13,3 +13,6 @@ chapter | h2 | Chapter One: A New World
 chapter | h3 | Rebirth | http://www.rpgcodex.net/forums/index.php?posts/4039371
 chapter | h3 | Awakening in the Ruins | http://www.rpgcodex.net/forums/index.php?posts/4041709
 chapter | h3 | An Unexpected Reunion | http://www.rpgcodex.net/forums/index.php?posts/4044543
+chapter | h3 | Lightning Storm | http://www.rpgcodex.net/forums/index.php?posts/4047251
+chapter | h3 | Oath of Partnership | http://www.rpgcodex.net/forums/index.php?posts/4049521
+chapter | h3 | Scouting Party | http://www.rpgcodex.net/forums/index.php?posts/4052881
