@@ -2,10 +2,19 @@
  * Created by Sascha on 05.07.15.
  */
 
-var getPost = require('./get-post');
-var getFile = require('./get-file');
+var getUrl = require('./loaders/get-url');
+var getFile = require('./loaders/get-file');
 
-module.exports = function scrape(index, writer, callback) {
+var partFileChecker = require('./util/part-file-checker');
+var partFileWriter = require('./util/part-file-writer');
+
+module.exports = function scrape(context, callback) {
+
+    var checker = partFileChecker(context.outRawDir);
+    var writer = partFileWriter(context.outRawDir);
+
+    var index = context.index;
+    var reloadSetting = context.config.reload;
 
     var current = -1;
 
@@ -25,11 +34,18 @@ module.exports = function scrape(index, writer, callback) {
 
         var part = index[current];
 
+        var shouldLoad = !checker(part) || reloadSetting;
+
+        if (!shouldLoad) {
+            nextPart();
+            return;
+        }
+
         switch (part.src) {
 
             case 'url':
                 console.log('Scraping part ' + part.id + ' from URL (' + part.url + ')');
-                getPost(part, function (content) {
+                getUrl(context, part, function (content) {
                     writer(part, content);
                     nextPart();
                 });
@@ -37,14 +53,13 @@ module.exports = function scrape(index, writer, callback) {
 
             case 'file':
                 console.log('Scraping part ' + part.id + ' from file (' + part.path + ')');
-                getFile(part, function (content) {
+                getFile(context, part, function (content) {
                     writer(part, content);
                     nextPart();
                 });
                 break;
 
             default:
-                console.log('Skipping non-content part ' + part.id);
                 nextPart();
         }
     }

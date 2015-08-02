@@ -4,12 +4,11 @@
 var fs = require('fs');
 var path = require('path');
 
-var config = require('./config');
+module.exports = function getFile(context, part, callback) {
 
-module.exports = function getFile(part, callback) {
+    var filePath = path.join(context.bookDir, part.path);
 
     try {
-        var filePath = path.join(config.bookDir, part.path);
         var fileContent = fs.readFileSync(filePath).toString();
 
         callback.call(null, fileContent);

@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^0.19.0",
+    "extend": "^3.0.0",
     "fs-extra": "^0.21.0",
     "handlebars": "^3.0.3",
     "request": "^2.58.0"

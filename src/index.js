@@ -4,19 +4,25 @@
 var path = require('path');
 var fs = require('fs-extra');
 
-var config = require('./config');
+var scrape = require('./scrape');
+var render = require('./render');
+var bind = require('./bind');
+
+var Context = require('./context/context');
+var getArg = require('./util/get-arg');
+
 var bookDir = getArg('book');
 
 console.log('Processing book in dir: ' + bookDir);
-config.setBookDir(bookDir);
 
-var index;
+var context = new Context(bookDir);
+
+console.log('Reload setting: ' + context.config.reload);
 
 var program = [
         clear,
         prepare,
         copy,
-        readIndex,
         scrape,
         render,
         bind
@@ -27,68 +33,31 @@ next();
 
 function clear() {
 
-    fs.removeSync(config.outDir);
+    if(context.config.reload) {
+        fs.removeSync(context.outDir);
+    }
 
     next();
 }
 
 function prepare() {
 
-    fs.ensureDirSync(config.outDir);
-    fs.ensureDirSync(config.outLibDir);
-    fs.ensureDirSync(config.outStyleDir);
-    fs.ensureDirSync(config.outScriptDir);
-    fs.ensureDirSync(config.outRawDir);
-    fs.ensureDirSync(config.outRenderedDir);
+    fs.ensureDirSync(context.outDir);
+    fs.ensureDirSync(context.outLibDir);
+    fs.ensureDirSync(context.outStyleDir);
+    fs.ensureDirSync(context.outScriptDir);
+    fs.ensureDirSync(context.outRawDir);
+    fs.ensureDirSync(context.outRenderedDir);
 
     next();
 }
 
 function copy() {
 
-    fs.copySync('lib', config.outLibDir);
-    fs.copySync('styles', config.outStyleDir);
-    fs.copySync('scripts', config.outScriptDir);
+    fs.copySync('../resources/lib', context.outLibDir);
+    fs.copySync('../resources/styles', context.outStyleDir);
+    fs.copySync('../resources/scripts', context.outScriptDir);
 
-    next();
-}
-
-function readIndex() {
-
-    var indexer = require('./indexer');
-
-    console.log('Reading index: ' + config.indexPath);
-
-    index = indexer(config.indexPath);
-
-    console.log('Found ' + index.length + ' parts');
-    next();
-}
-
-function scrape() {
-
-    var scraper = require('./scraper');
-    var writer = require('./part-writer')(fileNameById, config.outRawDir);
-
-    scraper(index, writer, next);
-}
-
-function render() {
-
-    var renderer = require('./renderer');
-    var reader = require('./part-reader')(fileNameById, config.outRawDir);
-    var writer = require('./part-writer')(fileNameById, config.outRenderedDir);
-
-    renderer(index, reader, writer);
-    next();
-}
-
-function bind() {
-
-    var binder = require('./binder');
-    var reader = require('./part-reader')(fileNameById, config.outRenderedDir);
-
-    binder(index, reader);
     next();
 }
 
@@ -101,26 +70,5 @@ function next() {
     }
 
     var step = program[current];
-    step.call();
-}
-
-function fileNameById(part) {
-    return part.id + '.html';
-}
-
-function getArg(argName) {
-
-    var argValue;
-
-    process.argv.forEach(function (val) {
-
-        var parts = val.split('=');
-
-        if (!parts.length > 1) return;
-        if (!parts[0] == argName) return;
-
-        argValue = parts[1];
-    });
-
-    return argValue;
+    step.call(null, context, next);
 }

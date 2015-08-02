@@ -4,7 +4,7 @@
 var request = require('request');
 var cheerio = require('cheerio');
 
-module.exports = function getPost(part, callback) {
+module.exports = function getPost(context, part, callback) {
 
     var postId = getPostId(part.url);
     var postSelector = generatePostSelector(postId);

@@ -61,3 +61,8 @@ a.chapter-source-link:hover {
     top: 35px;
     right: 35px;
 }
+
+.editor-highlight {
+    background-color: yellow;
+    text-decoration: line-through;
+}

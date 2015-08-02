@@ -9,16 +9,26 @@
     <script type="application/javascript" src="lib/jquery/jquery.min.js"></script>
     <script type="application/javascript" src="lib/js-cookie/js.cookie.js"></script>
     <script type="application/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="application/javascript" src="lib/rangy/rangy-core.js"></script>
+    <script type="application/javascript" src="lib/rangy/rangy-classapplier.js"></script>
+    <script type="application/javascript" src="lib/rangy/rangy-highlighter.js"></script>
 
     <script type="application/javascript" src="scripts/spoiler.js"></script>
     <script type="application/javascript" src="scripts/settings.js"></script>
+    <script type="application/javascript" src="scripts/editor.js"></script>
 </head>
 <body>
 
 
 <div class="actions">
-    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#settings-popup">
+    <button id="button_settings" type="button" class="btn btn-default" data-toggle="modal" data-target="#settings-popup">
         <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+    </button>
+    <button id="button_edit_add" type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+    </button>
+    <button id="button_edit_save" type="button" class="btn btn-default">
+        <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
     </button>
 </div>
 
@@ -142,14 +152,14 @@
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1137313" class="chapter-source-link" target="_blank">
             <h2>1. The Choicening</h2>
             </a>
-            
+            <div class="content">
 					
 
 
 
 					Excellent.<br>
 <br>
-The Barbarian will then commence the proceedings.<br>
+<span>The <span>Barbarian</span> will then commence <span>the</span> proceedings.</span><br>
 <br>
 ***<br>
 <br>
@@ -177,7 +187,7 @@ Some notes:<br>
 <br>
 2) The Barbarian will try to spice things up with pictures, here and there, but his HTML skills are paltry, so he will have to take a crash-course in posting pictures from tinypic or Photobucket. Forgive his idiocy.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -187,7 +197,7 @@ Some notes:<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1137367" class="chapter-source-link" target="_blank">
             <h2>2. The Consequencing</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -222,7 +232,7 @@ Full steam ahead.<br>
 <br>
  <img src="/forums/smiles/emo-emot-smug.gif" class="mceSmilie" alt=":smug:" title="I am very smug about this issue.    :smug:">
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -232,7 +242,7 @@ Full steam ahead.<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1137457" class="chapter-source-link" target="_blank">
             <h2>3. The Future is Here</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -261,7 +271,7 @@ OR<br>
 <br>
 <b>Do you... pour resources into vehicular-centric FTL-travel, which would allow your vessels to move faster than light without folding space-time?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -271,7 +281,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1137480" class="chapter-source-link" target="_blank">
             <h2>3b. The Future is Here: The Second Attempt</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -294,7 +304,7 @@ OR<br>
 <br>
 <b>Do you... pour resources into vehicular-centric FTL-travel, which would allow your vessels to move faster than light without folding space-time?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -304,7 +314,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1137666" class="chapter-source-link" target="_blank">
             <h2>4. A Great Penis Across the Stars</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -329,7 +339,7 @@ OR<br>
 <br>
 <b>Do you... issue private licenses to would-be explorers? Though less regulated a means of expanding the Codexian domain, it would surely produce a host of willing Codexians in the government&apos;s search for a habitable world.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -339,7 +349,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1137838" class="chapter-source-link" target="_blank">
             <h2>5. Oh, noes!</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -364,7 +374,7 @@ OR<br>
 <br>
 <b>Do you... explore alternate means of ending the conflict, while trying to keep it contained and on the fringes of Codexian space?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -374,7 +384,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1138295" class="chapter-source-link" target="_blank">
             <h2>6. Codexia Wants You!</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -403,7 +413,7 @@ OR<br>
 <br>
 (More choices, so if any of them reaches three votes, it wins.)
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -413,7 +423,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1138372" class="chapter-source-link" target="_blank">
             <h2>7. The War of the Penis Ring: Continued</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -460,7 +470,7 @@ The Codexian technological base remains much as it was around the time of Unific
 <br>
 ***
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -470,7 +480,7 @@ The Codexian technological base remains much as it was around the time of Unific
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1138496" class="chapter-source-link" target="_blank">
             <h2>8. War Pigs</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -528,7 +538,7 @@ OR<br>
 <br>
 <b>Do you... dig in, replace your losses and gird yourselves for the next phase of the war effort?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -538,7 +548,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1138717" class="chapter-source-link" target="_blank">
             <h2>9. The End of the Beginning</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -563,7 +573,7 @@ OR<br>
 <br>
 <b>Do you... use this opportunity to strengthen your fleets, maintain a powerful military and to institute laws fortifying the powers of the central government?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -573,7 +583,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1139047" class="chapter-source-link" target="_blank">
             <h2>10. Shits-n-Giggles: The Raumen and You</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -604,7 +614,7 @@ Juggernaut:<br>
 <br>
 As far as the Barbarian is aware, there is no Codexia, either.  <img src="/forums/smiles/emo-emot-smug.gif" class="mceSmilie" alt=":smug:" title="I am very smug about this issue.    :smug:">
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -614,7 +624,7 @@ As far as the Barbarian is aware, there is no Codexia, either.  <img src="/forum
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1139155" class="chapter-source-link" target="_blank">
             <h2>11. Pax Codexiana</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -647,7 +657,7 @@ D. Expand elsewhere, purposefully avoiding contact with these new races.<br>
 <br>
 E. As above (D), but also begin disengaging from the Raumen, whose merchants are establishing monopolies in your markets and making money off the backs of your citizens. Filthy insects.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -657,7 +667,7 @@ E. As above (D), but also begin disengaging from the Raumen, whose merchants are
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1139436" class="chapter-source-link" target="_blank">
             <h2>12. Codexia uber alles: The Genetic Intermission</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -688,7 +698,7 @@ D. Allow regulated tech-mods, but no others.<br>
 <br>
 E. Allow all mods, as was the case previously, championing the right of Codexians to lead their lives as they will.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -698,7 +708,7 @@ E. Allow all mods, as was the case previously, championing the right of Codexian
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1140444" class="chapter-source-link" target="_blank">
             <h2>13. Codexia the Brave</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -725,7 +735,7 @@ OR<br>
 <br>
 <b>Do you... allow it to withdraw without interference?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -735,7 +745,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1140640" class="chapter-source-link" target="_blank">
             <h2>14. The Chase Scene</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -758,7 +768,7 @@ OR<br>
 <br>
 <b>Do you... feign ignorance, and hope the bad thing goes away?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -768,7 +778,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1140950" class="chapter-source-link" target="_blank">
             <h2>15. Behind the Curtains</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -793,7 +803,7 @@ OR<br>
 <br>
 <b>Do you... refuse to establish any official relations, preferring to keep Codexia removed from regional politics?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -803,7 +813,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1141872" class="chapter-source-link" target="_blank">
             <h2>16. Codexia Goes Forth!</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -838,7 +848,7 @@ OR<br>
 <br>
 <b>Do you... take this opportunity to sever your ties with these treacherous alien creatures? Codexia the Brave, Codexia Uber Alles!</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -848,7 +858,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1142243" class="chapter-source-link" target="_blank">
             <h2>17. Turning Points</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -903,7 +913,7 @@ OR<br>
 <br>
 NOTE: The above are not &apos;attempt&apos; choices. Rather, the voting body WILL be given concrete information regarding ONE of the above. As such, You&apos;ve Caught a Break (TM)!
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -913,7 +923,7 @@ NOTE: The above are not &apos;attempt&apos; choices. Rather, the voting body WIL
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1142606" class="chapter-source-link" target="_blank">
             <h2>18. War Stories</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -948,7 +958,7 @@ OR<br>
 <br>
 <b>Do you... mobilize immediately, in preparation for war?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -958,7 +968,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1143129" class="chapter-source-link" target="_blank">
             <h2>19. Cry Havoc, and Let Loose the Dogs of War!</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -995,7 +1005,7 @@ OR<br>
 <br>
 <b>Is the aim of the war to... subjugate the Phyr entirely?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1005,7 +1015,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1143548" class="chapter-source-link" target="_blank">
             <h2>20. The Great Dying</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1046,7 +1056,7 @@ OR<br>
 <br>
 <b>Do you... intervene militarily against the Turanei, heroically standing up for the right of the Phyr to exist?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1056,7 +1066,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1144103" class="chapter-source-link" target="_blank">
             <h2>21. Codex Entry: The Phyr</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1091,7 +1101,7 @@ It should be noted that the Phyr practice a form of ancestor worship, but no rec
 <br>
 The Phyr, to put it bluntly, are not known for their technological prowess. Having been gifted with their most advanced devices (i.e. the stealth field generators), the Phyr are better known for the grand scale of their construction projects, than any other achievement in the technical field. Those projects, however, are duly impressive. The ursine aliens do not only manufacture massive stealth carriers, but also truly vast buildings (Phyr arcologies are legendary) and public works. Generally speaking, their propulsion technologies consist of low grade FTL and sub-light drives. Their sensor technologies should not be spoken of in the same breath as their Codexian equivalent. And, although Phyr weapons are not to be regarded lightly, their limited tactical utility has been decisively exposed.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1101,7 +1111,7 @@ The Phyr, to put it bluntly, are not known for their technological prowess. Havi
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1144783" class="chapter-source-link" target="_blank">
             <h2>22. The River of Death</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1130,7 +1140,7 @@ OR<br>
 <br>
 <b>Do you... invest heavily in technological progress, striving for parity with the region&apos;s most advanced races?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1140,7 +1150,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1145374" class="chapter-source-link" target="_blank">
             <h2>23. The Aftermath</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1169,7 +1179,7 @@ OR<br>
 <br>
 <b>Do you... borrow heavily from the Raumen? This would give you the funds to mollify segments of the population, ease the tax burden and fund socio-economic programs of intrinsic value?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1179,7 +1189,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1146276" class="chapter-source-link" target="_blank">
             <h2>24. Dreams of the Future</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1210,7 +1220,7 @@ OR<br>
 <br>
 <b>Is this discovery... the humble beginning of a super-weapon program? Though the journey is long, the reward at the end might be worth it.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1220,7 +1230,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1147390" class="chapter-source-link" target="_blank">
             <h2>25. Fate and Destiny</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1247,7 +1257,7 @@ OR<br>
 <br>
 <b>Do you... explore what lies beyond the vast Raumeni territories?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1257,7 +1267,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1147777" class="chapter-source-link" target="_blank">
             <h2>26. State of the Union, 250AU</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1280,7 +1290,7 @@ The economy of Codexia has been through some very difficult times, recently, but
 <br>
 Apart from the advent of true AI in 223AU, Codexia has not advanced a great deal technologically in the past fifty years. Economic instability and a lack of impetus have together acted to prevent much of an investment in a variety of technological fields. The greatest advances have come in the private, commercial sector, where innovation is tied to consumption. Here, the endlessly evolving Codexian society has acted as a catalyst for novelty.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1290,7 +1300,7 @@ Apart from the advent of true AI in 223AU, Codexia has not advanced a great deal
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1148499" class="chapter-source-link" target="_blank">
             <h2>27. Where No Man Has Gone Before</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1327,7 +1337,7 @@ OR<br>
 <br>
 <b>Do you... cut your losses and focus on other issues?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1337,7 +1347,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1149969" class="chapter-source-link" target="_blank">
             <h2>28. Codexia, the Unbound</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1358,7 +1368,7 @@ OR<br>
 <br>
 <b>Do you... believe that exploring beyond the Raumeni territories might be the better idea? Do other sentients await, beyond? New markets, perhaps?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1368,7 +1378,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1151118" class="chapter-source-link" target="_blank">
             <h2>29. The Feast of Bones</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1395,7 +1405,7 @@ OR<br>
 <br>
 <b>Do you... intervene directly on behalf of a faction? This scenario plays out much like Option B, however it also includes military support.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1405,7 +1415,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1152289" class="chapter-source-link" target="_blank">
             <h2>30. The Winter of Discontent, Raumeni-style</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1446,7 +1456,7 @@ The Barbarian apologizes, lads, he was not trying to give the impression that th
 	</aside>
 </div>EDIT: Just for the sake of clarity: you have knowledge of both, but only use wyrmhole drives. In this sense, it&apos;s an either/or proposition. The drives in question are too big, too power-consuming and too expensive to be used jointly on any practical vessel. The Raumeni still possess a very clear superiority in tactical mobility, as such.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1456,7 +1466,7 @@ The Barbarian apologizes, lads, he was not trying to give the impression that th
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1153243" class="chapter-source-link" target="_blank">
             <h2>31. New Kids on the Block</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1480,7 +1490,7 @@ OR<br>
 <br>
 <b>Do you court disaster by inviting all the warring clans to witness evidence that clearly shows the Hin&apos;in are acting to subjugate large swathes of Raumeni territory?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1490,7 +1500,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1154476" class="chapter-source-link" target="_blank">
             <h2>32. Disaster, Presiding</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1527,7 +1537,7 @@ OR<br>
 <br>
 <b>Do you...  wish to both a) mobilize and b) pull back? This will increase your fighting strength greatly over time, and reduce casualties in the short term.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1537,7 +1547,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1154648" class="chapter-source-link" target="_blank">
             <h2>33. Codex Entry: Codexian Military Primer, 266AU</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1562,7 +1572,7 @@ When compared to its potential opponents, the Codexian Navy is rated highly in m
 <br>
 No positioning info is available, because a very detailed map would be required for said info to be relevant.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1572,7 +1582,7 @@ No positioning info is available, because a very detailed map would be required 
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1157408" class="chapter-source-link" target="_blank">
             <h2>34. Out of the Frying Pan: the Fire Beckons</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1591,7 +1601,7 @@ OR<br>
 <br>
 <b>Do you... hold off on launching the offensive, until you are absolutely certain you have a force superiority over the Hin&apos;in?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1601,7 +1611,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1159051" class="chapter-source-link" target="_blank">
             <h2>35. The Textbook SNAFU</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1634,7 +1644,7 @@ OR<br>
 <br>
 And yes, in retrospect, this was a pretty epic update (longest to date!).
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1644,7 +1654,7 @@ And yes, in retrospect, this was a pretty epic update (longest to date!).
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1161059" class="chapter-source-link" target="_blank">
             <h2>36. The Sinews of War; the Price of Peace</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1695,7 +1705,7 @@ OR<br>
 <br>
 <b>Do you... begin printing money recklessly? This will buy you (literally) perhaps three months of breathing space, before inflation spirals out of control.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1705,7 +1715,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1162721" class="chapter-source-link" target="_blank">
             <h2>37. A Series of Unfortunate Events</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1730,7 +1740,7 @@ The Barbarian chooses to experiment, in this instance. The voting body will not 
 <br>
 Alternatively, if we do end up deadlocked (or this simply doesn&apos;t function as envisioned), several choices will be presented in the traditional manner, based on the discussion held. The experiment will most likely be discontinued, at that point, and we will return to the standard voting method.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1740,7 +1750,7 @@ Alternatively, if we do end up deadlocked (or this simply doesn&apos;t function 
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1165352" class="chapter-source-link" target="_blank">
             <h2>38. In Hephaestus' Forge, in Hell's Kitchen</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1779,7 +1789,7 @@ OR<br>
 <br>
 <b>Do you... stay neutral and observe, for now?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1789,7 +1799,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1167517" class="chapter-source-link" target="_blank">
             <h2>39. The Renaissance of Pain</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1822,7 +1832,7 @@ B. Theocratic (the government is centred on a religious institution, such as the
 C. Mercantile (the government is centred on one or more mercantile institutions, such as corporations)<br>
 D. Populist (the government is centred on public institutions and popular support, such as political parties)</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1832,7 +1842,7 @@ D. Populist (the government is centred on public institutions and popular suppor
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1169022" class="chapter-source-link" target="_blank">
             <h2>40. Respublica</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1859,7 +1869,7 @@ OR<br>
 <br>
 <b>Do you... decree that the Respublica is repelled by alien monstrosities? Santi Maria reserves the salvation she offers for Man alone! This will adversely affect alien trade (thereby the economy) and relations, but will help inspire an us-against-them attitude in the people that may be useful in maintaining stability, and will not allow for economic dependencies, like those of our past.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1869,7 +1879,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1188657" class="chapter-source-link" target="_blank">
             <h2>41. Clawing at the Stars</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1904,7 +1914,7 @@ OR<br>
 <br>
 Please note: &apos;Concentrate&apos; implies that all three policies will be pursued by the government <i>to some extent</i>. The one chosen will be specially emphasized.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1914,7 +1924,7 @@ Please note: &apos;Concentrate&apos; implies that all three policies will be pur
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1193351" class="chapter-source-link" target="_blank">
             <h2>42. Codex Entry: The Hin'in</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -1963,7 +1973,7 @@ Though this would suggest that Hin&apos;in society should be fairly fragmented a
 <br>
 Hin&apos;in technology is somewhat more advanced than the human state-of-the-art, circa 270AU. That advantage lies primarily in sensor and propulsion technologies - it is strongly believed in the military community that Codexian weaponry is just as effective, if not more so. In fact, various commentators have suggested that, while Hin&apos;in technology is perceptibly more advanced, generally, it is not a strategically significant advantage.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -1973,7 +1983,7 @@ Hin&apos;in technology is somewhat more advanced than the human state-of-the-art
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1196350" class="chapter-source-link" target="_blank">
             <h2>43. State of the Union: 340AU</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2008,7 +2018,7 @@ The status of the Turanei and the Phyr resettling the Dead Zone is unknown. The 
 <br>
 Next on the agenda is the update. THEN a little something on Marianism.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2018,7 +2028,7 @@ Next on the agenda is the update. THEN a little something on Marianism.
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1199636" class="chapter-source-link" target="_blank">
             <h2>44. Clouds on the Horizon</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2045,7 +2055,7 @@ OR<br>
 <br>
 * All references to conflict are regarding an immediate conflict, or one in the near term.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2055,7 +2065,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1208013" class="chapter-source-link" target="_blank">
             <h2>45. The Will to Power</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2080,7 +2090,7 @@ OR<br>
 <br>
 <b>Do you... jump into the conflict, but AGAINST the Commonwealth? Faced with a two-front war, their collapse would be swift and assured. The Hin&apos;in can take the scant few worlds they have claimed. We will take the heretics&apos; worlds. Tomorrow, we will be that much stronger, so as to wage holy war against the xenos.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2090,7 +2100,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1248541" class="chapter-source-link" target="_blank">
             <h2>46. Last Month on the 'Codexian Saga'</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2121,7 +2131,7 @@ a)	<span style="text-decoration: underline">An aggressive campaign?</span> These
 <br>
 b)	<span style="text-decoration: underline">A defensive campaign?</span> We must be careful; the xeno is powerful and advanced. Fools rush in where angels fear to tread! Let us fight them defensively, and discover their weaknesses...
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2131,7 +2141,7 @@ b)	<span style="text-decoration: underline">A defensive campaign?</span> We must
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1252547" class="chapter-source-link" target="_blank">
             <h2>47. A Space Sonata</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2160,7 +2170,7 @@ OR<br>
 <br>
 <b>Do you... order the nearby ships to wait? Say nothing to the Commos - the communication might be intercepted anyway. Instead, mass our fleet secretly. While the AFC rushes forces in and the Hin&apos;in crush them in Sonata, we can <i>take the battle to the enemy</i>, operationally. Mass the fleet and then hit <i>the Hin&apos;in</i> jump-off point. Smash their theater logistical hub. We can exploit their rear echelons ruthlessly and decide the campaign, if not the war! Think of the possibilities!</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2170,7 +2180,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1254804" class="chapter-source-link" target="_blank">
             <h2>48. The Sharp End</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2201,7 +2211,7 @@ OR<br>
 <br>
 <b>Do you... order that your forces split up into smaller taskforces and lead a multitude of attacks to further destabilize the Hin&apos;in? We do not need one mailed fist to smash this enemy. We need the flexibility of fingers, to strike many targets at once and keep our foe from recuperating. Though not immediately decisive, the results could well make this conflict impossible for the Hin&apos;in, without major reinforcement.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2211,7 +2221,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1259452" class="chapter-source-link" target="_blank">
             <h2>49. The Road Not Taken</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2246,7 +2256,7 @@ OR<br>
 <br>
 (Launch Vae Victis; stop at Neumann)
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2256,7 +2266,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1263264" class="chapter-source-link" target="_blank">
             <h2>50. Costs, Benefits, Opportunities</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2301,7 +2311,7 @@ OR<br>
 <br>
 <b>B: Update: Peaceful contact with the Amoneth</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2311,7 +2321,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1267691" class="chapter-source-link" target="_blank">
             <h2>51. In Media Res</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2346,7 +2356,7 @@ OR<br>
 <br>
 <b>Do you... order your squadron to withdraw? This seems like an easy enough way to purchase some trust at no cost at all. We cannot possibly be considering fighting on another front now - not to mention against our allies, however nominal. Let us withdraw and concentrate on our primary foe.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2356,7 +2366,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1275676" class="chapter-source-link" target="_blank">
             <h2>52. A Fell Moon</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2383,7 +2393,7 @@ OR<br>
 <br>
 <b>Do you... maintain a fleet-in-being, instead? A hundred ships with a shielded cadre is a potent force. Let us concentrate them, and offer set-piece battle to our erstwhile foe. We cannot lose. If they ignore the armada and attack our planets and installations, we will manoeuvre and destroy them in detail. If they, in turn, concentrate and attempt to destroy the armada, we will have bought plenty of time to bring our boys back from the xeno front.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2393,7 +2403,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1289333" class="chapter-source-link" target="_blank">
             <h2>53. Cold Delivery</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2424,7 +2434,7 @@ OR<br>
 <br>
 Voting is open for the next 72 hours. Conan wishes to update on Sunday.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2434,7 +2444,7 @@ Voting is open for the next 72 hours. Conan wishes to update on Sunday.
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1294651" class="chapter-source-link" target="_blank">
             <h2>54. Errant Hope</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2461,7 +2471,7 @@ OR<br>
 <br>
 <b>Do you... re-absorb the Commonwealth, but rule with a light touch? They have been our enemy for decades, but they were our brothers for millennia. These misguided fools must be made to understand the error of their ways. Let us not show how cruel we can be. Instead, let us show them that which they do not expect at all: mercy. Marianism is strong enough to spread and flower amongst them without imposition. We will defeat the idea of the Commonwealth by <i>proving</i> its basic tenets wrong.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2471,7 +2481,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1306814" class="chapter-source-link" target="_blank">
             <h2>55. Pacification</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2506,7 +2516,7 @@ OR<br>
 <br>
 The Barbarian did not want this update to stretch on into forever, so he did not include this relevant tidbit to the extent that he wanted to: yes, the Codexian economy is tottering, and, yes, propping up the war machine has taxed it heavily, and, yes, the home world is still scarred from the war. No, not every ship in the fleet is shielded yet, but the percentage is much higher than at any time previously.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2516,7 +2526,7 @@ The Barbarian did not want this update to stretch on into forever, so he did not
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1310868" class="chapter-source-link" target="_blank">
             <h2>56. The Wheel Keeps on Turning</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2551,7 +2561,7 @@ OR<br>
 <br>
 <i>Please Note:</i> Long-term, in this case, signifies that the choice will affect at least a decade of game-time. Consider it from that perspective.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2561,7 +2571,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1316538" class="chapter-source-link" target="_blank">
             <h2>57. A New Age (Part A)</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2586,7 +2596,7 @@ The green light was given in the early months of 374AU, and more than a thousand
 <br>
 The Barbarian regrets that he was forced to cut this one in twain, but it was either this, or it would be tomorrow before you got anything.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2596,7 +2606,7 @@ The Barbarian regrets that he was forced to cut this one in twain, but it was ei
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1321480" class="chapter-source-link" target="_blank">
             <h2>58. A New Age (Part B)</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2627,7 +2637,7 @@ OR<br>
 <br>
 <b>Do you... suppress both? The Dead Zone is ours. Why would we share it? Did we not spend bucketloads of blood and treasure on achieving supremacy in our space? Let us teach these fools an object lesson.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2637,7 +2647,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1349890" class="chapter-source-link" target="_blank">
             <h2>59. The Triumphant March</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2678,7 +2688,7 @@ OR<br>
 <br>
 <b>Do you... employ a hands-off approach? As long as they follow our laws where they count, and as long as they pay their taxes, we do not particularly care what these things do or how they do it. They have been neutralized, and let that be the end of it. There is no advantage to using brute force where a less costly and a less direct approach will work just as well.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2688,7 +2698,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1349890" class="chapter-source-link" target="_blank">
             <h2>60. Altered States</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2729,7 +2739,7 @@ OR<br>
 <br>
 <b>Do you... employ a hands-off approach? As long as they follow our laws where they count, and as long as they pay their taxes, we do not particularly care what these things do or how they do it. They have been neutralized, and let that be the end of it. There is no advantage to using brute force where a less costly and a less direct approach will work just as well.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2739,7 +2749,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1365489" class="chapter-source-link" target="_blank">
             <h2>61. Et tu, Brutus?</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2772,7 +2782,7 @@ OR<br>
 <br>
 <b>Do you... choose the path of law? Investigate the assassinations, Councilmen, but abstain from a bloody massacre. How can the Synod reform a government without legitimacy; a government born in senseless violence? If Certo is guilty of these crimes, let us prove so in a court of law. Must we always bathe in the blood of our foes? Let us bask in justice, instead. It will leave us cleaner.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2782,7 +2792,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1376877" class="chapter-source-link" target="_blank">
             <h2>62. Codexia Reforged</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2807,7 +2817,7 @@ OR<br>
 <br>
 <b>Do you... invoke necessity and risk alienating them by not handing over the promised resources/money?</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2817,7 +2827,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1395842" class="chapter-source-link" target="_blank">
             <h2>63. The End of the Beginning</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2863,7 +2873,7 @@ OR<br>
 <br>
 <b><i>Decide!</i></b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2873,7 +2883,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1407739" class="chapter-source-link" target="_blank">
             <h2>64. The Rise of the Tyrant, the Loss of Heaven's Mandate</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2938,7 +2948,7 @@ OR<br>
 <br>
 Longest update to date, by a stretch. It was required, though, to &apos;set the scene&apos;.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2948,7 +2958,7 @@ Longest update to date, by a stretch. It was required, though, to &apos;set the 
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1417617" class="chapter-source-link" target="_blank">
             <h2>65. Snake Eyes</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -2983,7 +2993,7 @@ OR<br>
 <br>
 <b>Do you... raise the forces you will need to actively suppress the violence across the affected territories and to eliminate the Freedom Army? It will be costly and unpopular, but we can take the rug out from under Freedom&#x2019;s feet. We just need the manpower and the resources to put in a credible effort. So far, the government has provided neither. Our military is a tool of the state that has gone underused. Let us give it meaning once more.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -2993,7 +3003,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1446295" class="chapter-source-link" target="_blank">
             <h2>66. The Hourglass of Sand</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -3032,7 +3042,7 @@ The Freedom movement and its Army was becoming truly ubiquitous. <br>
 <br>
 <i>Part Two coming soon</i>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -3042,7 +3052,7 @@ The Freedom movement and its Army was becoming truly ubiquitous. <br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1470984" class="chapter-source-link" target="_blank">
             <h2>67. Whimpers in the Dark</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -3085,7 +3095,7 @@ OR<br>
 <br>
 <b>Do you... instead conduct modification testing on all staff, removing those who come back positive from positions of authority? We cannot take the chance that the culprits might evade justice. The guilty parties were surely transhumans, so let us make sure that the weight of this investigation falls where it should. This is the only decisive way to protect ourselves from further harm at the hands of the enemy.</b>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -3095,7 +3105,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1511740" class="chapter-source-link" target="_blank">
             <h2>68. Human Nature</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -3154,7 +3164,7 @@ OR<br>
 <br>
 <i>Please note: You can assume that the concessions the Raumeni demand would be extensive and may include territorial or technological &#x2018;gifts&#x2019;. Nothing is free.</i>
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div><div class="chapter">
@@ -3164,7 +3174,7 @@ OR<br>
             <a href="http://www.rpgcodex.net/forums/index.php?posts/1604186" class="chapter-source-link" target="_blank">
             <h2>Epilogue. Reign of Blood; Moments in Time</h2>
             </a>
-            
+            <div class="content">
 					
 
 
@@ -3211,7 +3221,7 @@ The Barbarian hopes you have enjoyed our circlejerk, friends and allies.<br>
 <br>
 Treave, Black Bart, laclonquan, many thanks for your kindness and camaraderie.
 					<div class="messageTextEndMarker">&#xA0;</div>
-				
+				</div>
         </article>
     </section>
 </div>

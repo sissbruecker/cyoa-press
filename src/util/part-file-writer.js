@@ -4,11 +4,15 @@
 var fs = require('fs');
 var path = require('path');
 
-module.exports = function reader(namer, basePath) {
-    return function (part) {
+var namer = require('./part-file-namer');
+
+module.exports = function writer(basePath) {
+
+    return function(part, content) {
+
         var fileName = namer(part);
         var filePath = path.join(basePath, fileName);
 
-        return fs.readFileSync(filePath).toString();
+        fs.writeFileSync(filePath, content);
     }
 };

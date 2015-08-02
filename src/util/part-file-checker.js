@@ -4,11 +4,13 @@
 var fs = require('fs');
 var path = require('path');
 
-module.exports = function writer(namer, basePath) {
+var namer = require('./part-file-namer');
+
+module.exports = function checker(basePath) {
     return function(part, content) {
         var fileName = namer(part);
         var filePath = path.join(basePath, fileName);
 
-        fs.writeFileSync(filePath, content);
+        return fs.existsSync(filePath, content);
     }
 };

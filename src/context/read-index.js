@@ -3,13 +3,15 @@
  */
 var fs = require('fs');
 
-module.exports = function readIndex(path) {
+module.exports = function loadIndex(path) {
 
     var lines = fs.readFileSync(path).toString().split('\n');
 
-    return lines
+    var index = lines
         .filter(notEmpty)
         .map(toPart);
+
+    return index;
 };
 
 function toPart(line, index) {
