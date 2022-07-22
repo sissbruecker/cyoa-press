@@ -14,7 +14,7 @@ module.exports = function readConfig(path) {
 
     var config = extend(true, {}, DEFAULT_CONFIG);
 
-    if (fs.exists(path)) {
+    if (fs.existsSync(path)) {
         var fileConfig = JSON.parse(fs.readFileSync(path).toString());
         config = extend(true, config, fileConfig);
     }

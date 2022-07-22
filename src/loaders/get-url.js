@@ -19,16 +19,18 @@ module.exports = function getPost(context, part, callback) {
 };
 
 function generatePostSelector(postId) {
-    return 'li#' + postId + ' div.messageContent > article > blockquote';
+    return 'article#js-' + postId + ' article.message-body .bbWrapper';
 }
 
 var HASHED_POST_ID_PATTERN = /.*\/page-[0-9]*#post-[0-9]*/;
 var URL_POST_ID_PATTERN = /.*posts\/[0-9]*/;
+var NEW_URL_POST_ID_PATTERN = /.*post-[0-9]+$/;
 
 function getPostId(url) {
 
     if (url.match(HASHED_POST_ID_PATTERN)) return getHashedPostId(url);
     if (url.match(URL_POST_ID_PATTERN)) return getUrlPostId(url);
+    if (url.match(NEW_URL_POST_ID_PATTERN)) return getNewUrlPostId(url);
 
     return null;
 }
@@ -43,4 +45,10 @@ function getUrlPostId(url) {
     var id = parts[parts.length - 1];
 
     return 'post-' + id;
+}
+
+function getNewUrlPostId(url) {
+
+    var parts = url.split('/');
+    return parts[parts.length - 1];
 }
